@@ -1,47 +1,47 @@
-# Section 9: Astronomy and Astrophysics
+# Sekcja 9: Astronomia i Astrofizyka
 
-## 1. Scale Comparison
+## 1. Porównanie skali
 
-How many times farther is the Sun from Earth compared to the Moon from Earth? (Sun-Earth distance $\approx 150 \times 10^6$ km; Moon-Earth distance $\approx 384,000$ km).
+Ile razy dalej od Ziemi znajduje się Słońce w porównaniu do odległości Księżyca od Ziemi? (Odległość Słońce-Ziemia $\approx 150 \times 10^6$ km; odległość Księżyc-Ziemia $\approx 384,000$ km).
 
-## 2. Angular Size
+## 2. Rozmiar kątowy
 
-Calculate the angular size (in degrees) of the Sun and the Moon as seen from Earth. Sun's diameter $\approx 1.39 \times 10^6$ km; Moon's diameter $\approx 3,474$ km. Why do they appear to be roughly the same size? If the Moon were the size of a basketball (about 24 cm in diameter), how big would the Sun be in this scale model? (Sun's diameter $\approx 1.39 \times 10^6$ km).
+Oblicz rozmiar kątowy (w stopniach) Słońca i Księżyca widzianych z Ziemi. Średnica Słońca $\approx 1.39 \times 10^6$ km; średnica Księżyca $\approx 3,474$ km. Dlaczego wydają się być mniej więcej tego samego rozmiaru? Gdyby Księżyc był wielkości piłki do koszykówki (około 24 cm średnicy), jak duże byłoby Słońce w tym modelu skali? (Średnica Słońca $\approx 1.39 \times 10^6$ km).
 
-## 3. Rotational Velocity
+## 3. Prędkość obrotowa
 
-Calculate the linear speed (in km/s) of a point on the Earth's equator due to its rotation. Earth's radius $\approx 6378$ km.
+Oblicz prędkość liniową (w km/s) punktu na równiku Ziemi wynikającą z jej ruchu obrotowego. Promień Ziemi $\approx 6378$ km.
 
-## 4. Orbital Mechanics
+## 4. Mechanika orbitalna
 
-Calculate the orbital speed of the International Space Station (ISS), which orbits at an altitude of approximately 400 km above the Earth's surface. (Earth's mass $M_E \approx 5.97 \times 10^{24}$ kg). Compare this speed of Earth's orbital speed around the Sun (Earth-Sun distance $\approx 150 \times 10^6$ km, Earth's orbital period $\approx 365.25$ days). Which is faster, the ISS around the Earth or Earth in its orbit around the Sun?
+Oblicz prędkość orbitalną Międzynarodowej Stacji Kosmicznej (ISS), która krąży na wysokości około 400 km nad powierzchnią Ziemi. (Masa Ziemi $M_E \approx 5.97 \times 10^{24}$ kg). Porównaj tę prędkość z prędkością orbitalną Ziemi wokół Słońca (odległość Ziemia-Słońce $\approx 150 \times 10^6$ km, okres orbitalny Ziemi $\approx 365.25$ dnia). Co jest szybsze: ISS wokół Ziemi czy Ziemia na swojej orbicie wokół Słońca?
 
-## 5. Microgravity
+## 5. Mikrograwitacja
 
-What is the acceleration due to gravity ($g$) at the altitude of the ISS (400 km)? Why do astronauts experience a state of "weightlessness" despite this gravity?
+Ile wynosi przyspieszenie grawitacyjne ($g$) na wysokości orbity ISS (400 km)? Dlaczego astronauci doświadczają stanu „nieważkości” pomimo występowania tej grawitacji?
 
-## 6. Geostationary Orbit
+## 6. Orbita geostacjonarna
 
-Satellites in geostationary orbit remain above the same point on Earth. What must their orbital period be? Calculate the altitude of a geostationary orbit above the Earth's surface.
+Satelity na orbicie geostacjonarnej pozostają nad tym samym punktem na Ziemi. Jaki musi być ich okres orbitalny? Oblicz wysokość orbity geostacjonarnej nad powierzchnią Ziemi.
 
-## 7. Escape Velocity
+## 7. Prędkość ucieczki
 
-What is the escape velocity from the surface of the Moon? (Moon's mass $M_M \approx 7.35 \times 10^{22}$ kg; whereas Moon's radius $R_M \approx 1,737$ km). Express the result in km/s and as a fraction of Earth's escape velocity (Earth's escape velocity $\approx 11.2$ km/s).
+Jaka jest prędkość ucieczki z powierzchni Księżyca? (Masa Księżyca $M_M \approx 7.35 \times 10^{22}$ kg; podczas gdy promień Księżyca $R_M \approx 1,737$ km). Wyraź wynik w km/s oraz jako ułamek prędkości ucieczki z Ziemi (prędkość ucieczki z Ziemi $\approx 11.2$ km/s).
 
-## 8. Solar Gravity
+## 8. Grawitacja słoneczna
 
-Calculate the acceleration due to gravity on the surface of the Sun. By what factor would your weight increase if you could stand on its surface? (Sun's mass $M_S \approx 2 \times 10^{30}$ kg; Sun's radius $R_S \approx 6.96 \times 10^8$ m).
+Oblicz przyspieszenie grawitacyjne na powierzchni Słońca. O jaki czynnik wzrósłby twój ciężar, gdybyś mógł stanąć na jego powierzchni? (Masa Słońca $M_S \approx 2 \times 10^{30}$ kg; promień Słońca $R_S \approx 6.96 \times 10^8$ m).
 
-## 9. Megastructures
+## 9. Megastruktury
 
-A "Dyson Sphere" is a hypothetical megastructure that completely encompasses a star to capture its energy output. If the mass of Mercury ($3.3 \times 10^{23}$ kg) were used to build a solar panel sphere with a surface density of 10 kg/m², what would be the radius of the sphere?
+„Sfera Dysona” to hipotetyczna megastruktura, która całkowicie otacza gwiazdę w celu przechwycenia jej energii. Gdyby masa Merkurego ($3.3 \times 10^{23}$ kg) została użyta do budowy sfery paneli słonecznych o gęstości powierzchniowej 10 kg/m², jaki byłby promień tej sfery?
 
-## 10. Interplanetary Travel
+## 10. Podróże międzyplanetarne
 
-How much time would it take to get from Earth to Mars when Mars is at its closest approach (55 million km)
+Ile czasu zajęłaby podróż z Ziemi na Marsa, gdy Mars znajduje się w najmniejszej odległości (55 milionów km)
 
-a) for a message sent at the speed of light?
+a) dla wiadomości wysłanej z prędkością światła?
 
-b) by a spacecraft traveling at a constant speed of 40,000 km/h = 11.11 km/s?
+b) dla statku kosmicznego podróżującego ze stałą prędkością 40 000 km/h = 11,11 km/s?
 
-c) by "airplane" traveling at a constant speed of 900 km/h, typical for intercontinental flights?
+c) dla „samolotu” podróżującego ze stałą prędkością 900 km/h, typową dla lotów międzykontynentalnych?

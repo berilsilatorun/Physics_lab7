@@ -1,6 +1,6 @@
 # Section 0: Introduction to Physics 
 
-Your personal intro notes go here...
+Your personal notes goes here...
 
 ## 1. Vector Algebra
 

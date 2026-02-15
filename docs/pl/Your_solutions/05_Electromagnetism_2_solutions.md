@@ -1,42 +1,41 @@
-# Section 5: Electromagnetism II
+# Sekcja 5: Elektromagnetyzm II
 
-## 1. Gauss's Law
+## 1. Prawo Gaussa
 
-A point charge of $+2 \text{ C}$ is located at the origin. Calculate the electric flux through a spherical surface of radius $1 \text{ m}$ centered at the origin.
+Ładunek punktowy $+2 \text{ C}$ znajduje się w początku układu współrzędnych. Oblicz strumień pola elektrycznego przez powierzchnię sferyczną o promieniu $1 \text{ m}$ wyśrodkowaną w początku układu.
 
-## 2. Ampere's Law
+## 2. Prawo Ampère'a
 
-Two long, parallel wires are $10 \text{ cm}$ apart and carry currents of $5 \text{ A}$ in opposite directions. Calculate the magnitude and direction of the magnetic field at a point midway between the wires.
+Dwa długie, równoległe przewody są oddalone od siebie o $10 \text{ cm}$ i przewodzą prądy o natężeniu $5 \text{ A}$ w przeciwnych kierunkach. Oblicz wartość i kierunek pola magnetycznego w punkcie znajdującym się w połowie odległości między przewodami.
 
-## 3. Biot-Savart Law
+## 3. Prawo Biota-Savarta
 
-A small segment of wire of length $0.1 \text{ m}$ carries a current of $3 \text{ A}$. The segment is located at a distance of $0.2 \text{ m}$ from a point $P$. Calculate the magnetic field at point $P$ due to this current segment (assume the segment is perpendicular to the line connecting it to point $P$).
+Mały odcinek przewodu o długości $0,1 \text{ m}$ przewodzi prąd o natężeniu $3 \text{ A}$. Odcinek ten znajduje się w odległości $0,2 \text{ m}$ od punktu $P$. Oblicz pole magnetyczne w punkcie $P$ pochodzące od tego odcinka prądu (załóż, że odcinek jest prostopadły do linii łączącej go z punktem $P$).
 
-## 4. Magnetic Torque
+## 4. Moment siły magnetycznej
 
-A rectangular loop of wire with dimensions $10 \text{ cm}$ by $5 \text{ cm}$ carries a current of $2 \text{ A}$. A uniform magnetic field of $B = 0.3 \text{ T}$ is applied parallel to the plane of the loop. What is the magnitude of the magnetic torque on the loop?
+Prostokątna pętla z drutu o wymiarach $10 \text{ cm}$ na $5 \text{ cm}$ przewodzi prąd o natężeniu $2 \text{ A}$. Jednorodne pole magnetyczne o indukcji $B = 0,3 \text{ T}$ jest przyłożone równolegle do płaszczyzny pętli. Jaka jest wartość momentu siły magnetycznej działającej na pętlę?
 
-## 5. EM Wave Analysis
+## 5. Analiza fali elektromagnetycznej
 
-An electromagnetic wave has its electric field component described by $E_y(x,t) = 100 \sin(10^7 x - \omega t) \text{ V/m}$. What is the direction of propagation? What is the wavelength $\lambda$? What is the angular frequency $\omega$? What is the equation for the magnetic field component?
+Składowa elektryczna fali elektromagnetycznej opisana jest wzorem $E_y(x,t) = 100 \sin(10^7 x - \omega t) \text{ V/m}$. Jaki jest kierunek propagacji? Jaka jest długość fali $\lambda$? Jaka jest częstość kołowa $\omega$? Jakie jest równanie na składową pola magnetycznego?
 
-## 6. Wavelength and Frequency
+## 6. Długość fali i częstotliwość
 
-The human eye is most sensitive to light with a wavelength of about $550 \text{ nm}$. What color does this correspond to in the visible spectrum? What is the frequency of this light?
+Oko ludzkie jest najbardziej czułe na światło o długości fali około $550 \text{ nm}$. Jakiemu kolorowi w widmie widzialnym to odpowiada? Jaka jest częstotliwość tego światła?
 
-## 7. EM Spectrum
+## 7. Widmo elektromagnetyczne
 
-List the following types of electromagnetic radiation in order of increasing wavelength: Infrared, Ultraviolet, Microwaves, X-rays, Radio waves, Gamma rays.
+Wymień następujące rodzaje promieniowania elektromagnetycznego w kolejności rosnącej długości fali: Podczerwień, Ultrafiolet, Mikrofale, Promieniowanie rentgenowskie, Fale radiowe, Promieniowanie gamma.
 
-## 8. Refraction (Snell's Law)
+## 8. Załamanie (Prawo Snella)
 
-A light ray travels from air ($n=1.00$) into glass ($n=1.50$). If the angle of incidence is $30^\circ$, what is the angle of refraction?
+Promień światła przechodzi z powietrza ($n=1,00$) do szkła ($n=1,50$). Jeśli kąt padania wynosi $30^\circ$, jaki jest kąt załamania?
 
-## 9. Speed of Light in Media
+## 9. Prędkość światła w ośrodkach
 
-What is the speed of light in a diamond, which has an index of refraction $n = 2.42$?
+Jaka jest prędkość światła w diamencie, który ma współczynnik załamania $n = 2,42$?
 
-## 10. Brewster Angle
+## 10. Kąt Brewstera
 
-Light in air strikes a glass surface with refractive index $n = 1.50$. At what angle of incidence does reflected light become fully polarized?
-
+Światło w powietrzu pada na szklaną powierzchnię o współczynniku załamania $n = 1,50$. Przy jakim kącie padania światło odbite staje się całkowicie spolaryzowane?

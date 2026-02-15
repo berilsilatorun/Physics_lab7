@@ -1,43 +1,43 @@
-# Section 7: Measurements
+# Sekcja 7: Pomiary
 
-## 1. Propagation of Error I
+## 1. Przenoszenie niepewności I
 
-The radius of a sphere is measured to be $r = (6.20 \pm 0.05)\text{ cm}$. Calculate the volume of the sphere and its associated uncertainty.
+Zmierzono promień kuli, który wynosi $r = (6.20 \pm 0.05)\text{ cm}$. Oblicz objętość kuli i związaną z nią niepewność.
 
-## 2. Propagation of Error II
+## 2. Przenoszenie niepewności II
 
-The length and width of a rectangular plate are measured to be $L = (15.3 \pm 0.1)\text{ cm}$ and $W = (8.4 \pm 0.1)\text{ cm}$. Calculate the area of the plate and its uncertainty.
+Zmierzono długość i szerokość prostokątnej płytki, które wynoszą $L = (15.3 \pm 0.1)\text{ cm}$ oraz $W = (8.4 \pm 0.1)\text{ cm}$. Oblicz pole powierzchni płytki i jego niepewność.
 
-## 3. Propagation of Error III
+## 3. Przenoszenie niepewności III
 
-The resistance R is calculated using Ohm's Law, $R = V/I$. If the voltage is measured as $V = (10.0 \pm 0.2)\text{ V}$ and the current as $I = (2.00 \pm 0.05)\text{ A}$, what is the calculated resistance and its uncertainty?
+Opór R oblicza się za pomocą prawa Ohma, $R = V/I$. Jeśli napięcie zmierzono jako $V = (10.0 \pm 0.2)\text{ V}$, a natężenie prądu jako $I = (2.00 \pm 0.05)\text{ A}$, jaki jest obliczony opór i jego niepewność?
 
-## 4. Relative Uncertainty
+## 4. Niepewność względna
 
-A car's speedometer has a 5% of uncertainty. If it reads 60 km/h, what is the range of the car's actual speed?
+Prędkościomierz samochodu ma niepewność 5%. Jeśli wskazuje 60 km/h, jaki jest zakres rzeczywistej prędkości samochodu?
 
-## 5. Percentage Calculation
+## 5. Obliczenia procentowe
 
-A measurement of time is recorded as $t = 5.45 \pm 0.22$ seconds. What is the percentage uncertainty of this measurement?
+Pomiar czasu został zapisany jako $t = 5.45 \pm 0.22$ sekundy. Jaka jest niepewność procentowa tego pomiaru?
 
-## 6. Instrument Precision
+## 6. Precyzja przyrządu
 
-A digital thermometer reads $25.4^\circ\text{C}$. Assuming the uncertainty is half the value of the last digit, what is the absolute uncertainty of this measurement?
+Termometr cyfrowy wskazuje $25.4^\circ\text{C}$. Zakładając, że niepewność wynosi połowę wartości ostatniej cyfry, jaka jest niepewność bezwzględna tego pomiaru?
 
-## 7. Standard Deviation
+## 7. Odchylenie standardowe
 
-Eleven students received the following scores on a test: 88, 92, 79, 85, 95, 81, 86, 90, 83, 77, 89. What is the standard deviation of these test scores?
+Jedenastu uczniów otrzymało następujące wyniki z testu: 88, 92, 79, 85, 95, 81, 86, 90, 83, 77, 89. Jakie jest odchylenie standardowe tych wyników?
 
-## 8. Light Speed Measurement
+## 8. Pomiar prędkości światła
 
-Measure the speed of light using a microwave oven, a bar of chocolate, and a ruler. Measure the distance between the melted spots on the chocolate to determine the wavelength of the microwaves. Use the frequency of the microwave oven, 2.45 GHz, to calculate the speed of light.
+Zmierz prędkość światła za pomocą kuchenki mikrofalowej, tabliczki czekolady i linijki. Zmierz odległość między roztopionymi miejscami na czekoladzie, aby określić długość fali mikrofal. Użyj częstotliwości kuchenki mikrofalowej, 2,45 GHz, aby obliczyć prędkość światła.
 
-## 9. Pendulum Measurements - html/real
+## 9. Pomiary wahadła - html/rzeczywistość
 
-Create a simple pendulum simulator in HTML equipped with a stopwatch for manual timing. Assuming the string length is an exact value, run the simulation and perform 10 measurements of the time taken for 10 complete oscillations. Based on the obtained results, manually calculate the mean period and standard deviation. Using this data, determine the value of the acceleration due to gravity and calculate the measurement uncertainty of this result.
+Stwórz prosty symulator wahadła w HTML wyposażony w stoper do ręcznego pomiaru czasu. Zakładając, że długość sznurka jest wartością dokładną, uruchom symulację i wykonaj 10 pomiarów czasu potrzebnego na 10 pełnych wahnięć. Na podstawie uzyskanych wyników ręcznie oblicz średni okres i odchylenie standardowe. Korzystając z tych danych, wyznacz wartość przyspieszenia ziemskiego i oblicz niepewność pomiarową tego wyniku.
 
-Repeat the real-life experiment: set up a physical pendulum using a string and a small mass (e.g., a metal ball, keychain, necklace). Measure the length of the pendulum and perform 10 measurements of the time taken for 10 complete oscillations using a stopwatch in your cellphone. Calculate the mean period and its standard deviation. Use this data to calculate the value of the acceleration due to gravity and its associated uncertainty.
+Powtórz eksperyment w rzeczywistości: zbuduj wahadło fizyczne używając sznurka i małej masy (np. metalowej kulki, breloczka, naszyjnika). Zmierz długość wahadła i wykonaj 10 pomiarów czasu dla 10 pełnych wahnięć, używając stopera w telefonie komórkowym. Oblicz średni okres i jego odchylenie standardowe. Użyj tych danych do obliczenia wartości przyspieszenia ziemskiego i związanej z nim niepewności.
 
-## 10. Mass-Spring Measurements - html
+## 10. Pomiary masa-sprężyna - html
 
-Generate a simulator of a mass suspended on a spring in HTML with a timing function. Treating the mass as a given value with zero uncertainty, perform a series of 10 time measurements for 10 complete oscillations. Use the collected data to calculate the mean period, standard deviation, and Type A uncertainty. Calculate the value of the spring constant along with its measurement uncertainty.
+Wygeneruj symulator masy zawieszonej na sprężynie w HTML z funkcją pomiaru czasu. Traktując masę jako zadaną wartość o zerowej niepewności, wykonaj serię 10 pomiarów czasu dla 10 pełnych oscylacji. Wykorzystaj zebrane dane do obliczenia średniego okresu, odchylenia standardowego i niepewności typu A. Oblicz wartość stałej sprężystości wraz z jej niepewnością pomiarową.

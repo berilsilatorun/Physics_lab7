@@ -1,119 +1,121 @@
-# Section 0: Introduction to Physics 
+# Sekcja 0: Wstęp do fizyki
 
-Your personal intro notes go here...
+Twoje osobiste notatki idą tutaj...
 
-## 1. Vector Algebra
+## 1. Algebra wektorowa
 
-Given two vectors in 3D space: $\vec{a} = [2, 1, -3]$ and $\vec{b} = [4, -2, 1]$. Calculate:
+Dane są dwa wektory w przestrzeni 3D: $\vec{a} = [2, 1, -3]$ oraz $\vec{b} = [4, -2, 1]$. Oblicz:
 
-a) The magnitude of each vector.
+a) Długość każdego wektora.
 
-b) The dot product $\vec{a} \cdot \vec{b}$.
+b) Iloczyn skalarny $\vec{a} \cdot \vec{b}$.
 
-c) The cross product $\vec{a} \times \vec{b}$.
+c) Iloczyn wektorowy $\vec{a} \times \vec{b}$.
 
-d) The angle between vectors $\vec{a}$ and $\vec{b}$.
+d) Kąt między wektorami $\vec{a}$ i $\vec{b}$.
 
-### Solution 1 - fix bad formatting rendered by github!!!
+### Rozwiązanie 1 - popraw formatowanie!!!
 
-a) The magnitude of a vector $\vec{v} = [v_x, v_y, v_z]$ is given by:
+a) Długość wektora $\vec{v} = [v_x, v_y, v_z]$ wyraża się wzorem:
 $$|\vec{v}| = \sqrt{v_x^2 + v_y^2 + v_z^2}$$
-For $\vec{a}$:
+Dla $\vec{a}$:
 $$|\vec{a}| = \sqrt{2^2 + 1^2 + (-3)^2} = \sqrt{4 + 1 + 9} = \sqrt{14}$$
-For $\vec{b}$:
-$$|\vec{b}| = \sqrt{4^2 + (-2)^2 +
-1^2} = \sqrt{16 + 4 + 1} = \sqrt{21}$$
-b) The dot product of two vectors $\vec{a} = [a_x, a_y, a_z]$ and $\vec{b} = [b_x, b_y, b_z]$ is calculated as:
+Dla $\vec{b}$:
+$$|\vec{b}| = \sqrt{4^2 + (-2)^2 + 1^2} = \sqrt{16 + 4 + 1} = \sqrt{21}$$
+
+b) Iloczyn skalarny dwóch wektorów $\vec{a} = [a_x, a_y, a_z]$ oraz $\vec{b} = [b_x, b_y, b_z]$ obliczamy jako:
 $$\vec{a} \cdot \vec{b} = a_x b_x + a_y b_y + a_z b_z$$
-For $\vec{a}$ and $\vec{b}$:
+Dla $\vec{a}$ i $\vec{b}$:
 $$\vec{a} \cdot \vec{b} = (2)(4) + (1)(-2) + (-3)(1) = 8 - 2 - 3 = 3$$
-c) The cross product of two vectors $\vec{a} = [a_x, a_y, a_z]$ and $\vec{b} = [b_x, b_y, b_z]$ is calculated using the determinant of a matrix:
+
+c) Iloczyn wektorowy dwóch wektorów $\vec{a} = [a_x, a_y, a_z]$ oraz $\vec{b} = [b_x, b_y, b_z]$ obliczamy, używając wyznacznika macierzy:
 $$\vec{a} \times \vec{b} = \begin{vmatrix}
 \hat{i} & \hat{j} & \hat{k} \\
 a_x & a_y & a_z \\
 b_x & b_y & b_z
 \end{vmatrix}$$
-For $\vec{a}$ and $\vec{b}$:
+Dla $\vec{a}$ i $\vec{b}$:
 $$\vec{a} \times \vec{b} = \begin{vmatrix}
 \hat{i} & \hat{j} & \hat{k} \\
 2 & 1 & -3 \\
 4 & -2 & 1
 \end{vmatrix}$$
-Calculating the determinant:
+Obliczając wyznacznik:
 $$= \hat{i} (1 \cdot 1 - (-3)(-2)) - \hat{j} (2 \cdot 1 - (-3)(4)) + \hat{k} (2 \cdot (-2) - 1 \cdot 4)$$
 $$= \hat{i} (1 - 6) - \hat{j} (2 + 12) + \hat{k} (-4 - 4)$$
 $$= -5\hat{i} - 14\hat{j} - 8\hat{k}$$
-d) The angle $\theta$ between two vectors can be found using the dot product and magnitudes:
+
+d) Kąt $\theta$ między dwoma wektorami można znaleźć, wykorzystując iloczyn skalarny i długości wektorów:
 $$\cos \theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}||\vec{b}|}$$
 $$\cos \theta = \frac{3}{\sqrt{14}\sqrt{21}} = \frac{3}{\sqrt{294}}$$
 $$\theta = \arccos\left(\frac{3}{\sqrt{294}}\right)= \arccos\left(\frac{3}{17.146}\right) \approx \arccos(0.175) \approx 80.1^\circ$$
 
-## 2. Systems of Equations
+## 2. Układy równań
 
-Find the values of $x$ and $y$ that satisfy both equations: $2x + 3y = 12$ and $x - y = 1$.
+Znajdź wartości $x$ i $y$, które spełniają oba równania: $2x + 3y = 12$ oraz $x - y = 1$.
 
-### Solution 2
+### Rozwiązanie 2
 
-To solve the system of equations, we can use substitution or elimination. Here, we will use substitution.
+Aby rozwiązać układ równań, możemy użyć metody podstawiania lub eliminacji. Tutaj zastosujemy podstawianie.
 
-From the second equation, we can express $x$ in terms of $y$:
+Z drugiego równania możemy wyznaczyć $x$ za pomocą $y$:
 
 $$x = y + 1$$
 
-Now substitute this into the first equation:
+Teraz podstawiamy to do pierwszego równania:
 
 $$2(y + 1) + 3y = 12$$
 
-Expand:
+Wymnażamy nawias:
 
 $$2y + 2 + 3y = 12$$
 
-Combine like terms:
+Redukujemy wyrazy podobne:
 
 $$5y + 2 = 12$$
 
-Subtract 2 from both sides:
+Odejmujemy 2 od obu stron:
 
 $$5y = 10$$
 
-Divide by 5:
+Dzielimy przez 5:
 
 $$y = 2$$
 
-Substitute back into $x = y + 1$:
+Podstawiamy z powrotem do równania $x = y + 1$:
 
 $$x = 2 + 1 = 3$$
 
-**Solution:** $x = 3, \quad y = 2$
+**Rozwiązanie:** $x = 3, \quad y = 2$
 
-## 3. Proportionality
+## 3. Proporcjonalność
 
-Consider the Universal Law of Gravitation: $F = G \frac{m_1 m_2}{r^2}$, where $F$ is the gravitational force between two masses $m_1$ and $m_2$, $r$ is the distance between their centers, and $G$ is the gravitational constant. Determine the factor by which the force $F$ changes if the distance $r$ is *doubled* and both masses ($m_1$ and $m_2$) are *halved*.
+Rozważ prawo powszechnego ciążenia: $F = G \frac{m_1 m_2}{r^2}$, gdzie $F$ jest siłą grawitacji między dwiema masami $m_1$ i $m_2$, $r$ jest odległością między ich środkami, a $G$ jest stałą grawitacji. Określ, jak zmieni się siła $F$, jeśli odległość $r$ zostanie *podwojona*, a obie masy ($m_1$ i $m_2$) zostaną *zmniejszone o połowę*.
 
-## 4. Rearranging Formulas
+## 4. Przekształcanie wzorów
 
-The formula for the period of a simple pendulum is $T = 2\pi \sqrt{\frac{L}{g}}$. Rearrange the equation give a formula for $g$ (acceleration due to gravity).
+Wzór na okres wahadła matematycznego to $T = 2\pi \sqrt{\frac{L}{g}}$. Przekształć równanie, aby otrzymać wzór na $g$ (przyspieszenie ziemskie).
 
-## 5. Trigonometry
+## 5. Trygonometria
 
-A vector $\vec{A}$ has a magnitude of $15$ and makes an angle of $\theta = 60^\circ$ with the horizontal axis. Calculate its horizontal and vertical components.
+Wektor $\vec{A}$ ma długość $15$ i tworzy kąt $\theta = 60^\circ$ z osią poziomą. Oblicz jego składową poziomą i pionową.
 
-## 6. Function Analysis
+## 6. Analiza funkcji
 
-Consider the function $f(x) = 3x^2 - 12x + 7$. Identify any local maxima or minima.
+Rozważ funkcję $f(x) = 3x^2 - 12x + 7$. Znajdź wszelkie lokalne maksima lub minima.
 
-## 7. Logic & Series
+## 7. Logika i szeregi
 
-A bicycle is 10 meters from a wall and moves towards it at a constant speed of $1\text{ m/s}$. A fly starts from the bicycle's front wheel and flies towards the wall at $2\text{ m/s}$. When it hits the wall, it instantly turns back and flies to the bicycle, and so on. What is the total distance the fly travels before being crushed?
+Rower znajduje się 10 metrów od ściany i porusza się w jej kierunku ze stałą prędkością $1\text{ m/s}$. Mucha startuje z przedniego koła roweru i leci w kierunku ściany z prędkością $2\text{ m/s}$. Kiedy uderzy w ścianę, natychmiast zawraca i leci do roweru, i tak dalej. Jaką całkowitą odległość przebędzie mucha, zanim zostanie zgnieciona?
 
-## 8. Definite Integrals
+## 8. Całki oznaczone
 
-Calculate the area under the curve of the function $f(x) = \sin(x)$ from $x=0$ to $x=\pi$.
+Oblicz pole pod krzywą funkcji $f(x) = \sin(x)$ od $x=0$ do $x=\pi$.
 
-## 9. Optimization Problem
+## 9. Problem optymalizacyjny
 
-A rectangle is under the curve $y = 3 - x^2$ in the first quadrant. What are the dimensions of the rectangle with the maximum area?
+Prostokąt znajduje się pod krzywą $y = 3 - x^2$ w pierwszej ćwiartce. Jakie są wymiary prostokąta o maksymalnym polu powierzchni?
 
-## 10. Infinite Series
+## 10. Szeregi nieskończone
 
-Determine the final position of an ant that starts at the origin and moves according to the following pattern: 1 m east, 1/2 m north, 1/3 m west, 1/4 m south, 1/5 m east, and so on.
+Określ końcowe położenie mrówki, która startuje z początku układu współrzędnych i porusza się według następującego schematu: 1 m na wschód, 1/2 m na północ, 1/3 m na zachód, 1/4 m na południe, 1/5 m na wschód i tak dalej.

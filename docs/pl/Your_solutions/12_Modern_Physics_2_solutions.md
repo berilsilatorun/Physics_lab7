@@ -1,45 +1,45 @@
-# Section 12: Modern Physics II (Quantum Mechanics)
+# Sekcja 12: Fizyka współczesna II (Mechanika kwantowa)
 
-## 1. Quantum Numbers
+## 1. Liczby kwantowe
 
-For the $n=3$ energy level in a hydrogen atom, what are the possible values for the quantum numbers $l$ (orbital) and $m_l$ (magnetic)? How many distinct electron states exist for $n=3$?
+Dla poziomu energetycznego $n=3$ w atomie wodoru, jakie są możliwe wartości liczb kwantowych $l$ (pobocznej) i $m_l$ (magnetycznej)? Ile istnieje różnych stanów elektronowych dla $n=3$?
 
-## 2. Energy Scaling
+## 2. Skalowanie energii
 
-State the general dependence of energy E on the principal quantum number n (i.e., $E_n \propto n^?$) for:
+Podaj ogólną zależność energii E od głównej liczby kwantowej n (tzn. $E \propto n^?$) dla:
 
-a) A particle in a one-dimensional infinite potential well.
+a) Cząstki w jednowymiarowej nieskończonej studni potencjału.
 
-b) An electron in a hydrogen atom.
+b) Elektronu w atomie wodoru.
 
-## 3. Photon Energy
+## 3. Energia fotonu
 
-Calculate the energy (in eV) of a photon with a wavelength of 500 nm. Use the formula $E = \frac{hc}{\lambda}$ where $h = 4.1357 \times 10^{-15}$ [eVs] and $c = 3.0 \times 10^8 \text{ m/s}$.
+Oblicz energię (w eV) fotonu o długości fali 500 nm. Użyj wzoru $E = \frac{hc}{\lambda}$, gdzie $h = 4.1357 \times 10^{-15}$ [eVs] i $c = 3.0 \times 10^8 \text{ m/s}$.
 
-## 4. Radioactive Half-Life
+## 4. Czas połowicznego rozpadu
 
-The half-life of Cobalt-60 is 5.27 years. If a sample initially contains 100 grams of Cobalt-60, how much will remain after approximately 21 years?
+Czas połowicznego rozpadu kobaltu-60 wynosi 5,27 lat. Jeśli próbka początkowo zawiera 100 gramów kobaltu-60, ile pozostanie po około 21 latach?
 
-## 5. Alpha Decay
+## 5. Rozpad alfa
 
-Give a specific, balanced nuclear equation for an alpha decay process, starting with Uranium-238 (${}^{238}_{92}\text{U}$). 
+Podaj konkretne, zbilansowane równanie reakcji jądrowej dla procesu rozpadu alfa, zaczynając od uranu-238 (${}^{238}_{92}\text{U}$).
 
-## 6. Beta Decay
+## 6. Rozpad beta
 
-Give a specific, balanced nuclear equation for a beta-minus decay process, starting with Carbon-14 (${}^{14}_{6}\text{C}$). 
+Podaj konkretne, zbilansowane równanie reakcji jądrowej dla procesu rozpadu beta minus, zaczynając od węgla-14 (${}^{14}_{6}\text{C}$).
 
-## 7. Pair Annihilation
+## 7. Anihilacja par
 
-An electron and a positron, each with a rest mass of $0.511 \text{MeV/c}^2$, annihilate each other, producing two photons of equal energy. What is the energy (in MeV) and wavelength of each photon?
+Elektron i pozyton, każdy o masie spoczynkowej $0,511 \text{MeV/c}^2$, anihilują się nawzajem, wytwarzając dwa fotony o równej energii. Jaka jest energia (w MeV) i długość fali każdego fotonu?
 
-## 8. Quark Model
+## 8. Model kwarkowy
 
-What is the quark composition of a proton and a neutron? Use this to verify their electric charges (u quark charge = +2/3 e, d quark charge = -1/3 e).
+Jaki jest skład kwarkowy protonu i neutronu? Wykorzystaj to, aby zweryfikować ich ładunki elektryczne (ładunek kwarka u = +2/3 e, ładunek kwarka d = -1/3 e).
 
-## 9. Quantum Well Energy
+## 9. Energia w studni kwantowej
 
-An electron is in a 1D infinite potential well of width $L = 0.5$ nm. It is in the $n=2$ state. What is the energy of the electron in eV?
+Elektron znajduje się w jednowymiarowej nieskończonej studni potencjału o szerokości $L = 0,5$ nm. Jest w stanie $n=2$. Jaka jest energia elektronu w eV?
 
-## 10. Wavefunction Probability
+## 10. Prawdopodobieństwo funkcji falowej
 
-For a particle in a 1D box of length L, the wavefunction for the ground state is $\Psi(x) = \sqrt{2/L} \sin(\pi x/L)$. Calculate the probability of finding the particle in the region $0 \le x \le L/4$. Then calculate the probability of finding the particle in the region $L/4 \le x \le L/2$. Which region is more likely to contain the particle?
+Dla cząstki w jednowymiarowym pudle o długości L, funkcja falowa dla stanu podstawowego to $\Psi(x) = \sqrt{2/L} \sin(\pi x/L)$. Oblicz prawdopodobieństwo znalezienia cząstki w obszarze $0 \le x \le L/4$. Następnie oblicz prawdopodobieństwo znalezienia cząstki w obszarze $L/4 \le x \le L/2$. W którym obszarze bardziej prawdopodobne jest znalezienie cząstki?

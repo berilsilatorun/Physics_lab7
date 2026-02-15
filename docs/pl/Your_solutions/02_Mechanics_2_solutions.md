@@ -1,68 +1,68 @@
-# Section 2: Mechanics II
+# Sekcja 2: Mechanika II
 
-## 1. Gravitational Dependence
+## 1. Zależność od grawitacji
 
-A simple pendulum has a period of 4 seconds on Earth. What would its period be on the Moon, where the gravitational acceleration is about 1/6th of Earth's?
+Wahadło matematyczne ma na Ziemi okres 4 sekund. Jaki będzie jego okres na Księżycu, gdzie przyspieszenie grawitacyjne wynosi około 1/6 ziemskiego?
 
-## 2. Inelastic Collision
+## 2. Zderzenie niesprężyste
 
-A 70 kg runner moving at $3 \text{ m/s}$ jumps onto a 140 kg stationary cart. What is the final speed of the cart with the runner? Is kinetic energy conserved in this collision? Explain.
+Biegacz o masie 70 kg poruszający się z prędkością $3 \text{ m/s}$ wskakuje na nieruchomy wózek o masie 140 kg. Jaka jest prędkość końcowa wózka z biegaczem? Czy energia kinetyczna jest zachowana w tym zderzeniu? Wyjaśnij.
 
-## 3. Harmonic Motion
+## 3. Ruch harmoniczny
 
-A 10 kg mass is attached to a spring and oscillates according to the equation $x(t) = 0.2 \cos(10\pi t)$ (in meters). What is the spring constant $k$? What is the total mechanical energy of the system?
+Masa 10 kg jest przymocowana do sprężyny i drga zgodnie z równaniem $x(t) = 0.2 \cos(10\pi t)$ (w metrach). Jaka jest stała sprężystości $k$? Jaka jest całkowita energia mechaniczna układu?
 
-## 4. Conservation of Energy
+## 4. Zachowanie energii
 
-A pendulum with a length of 1.0 meter is released from an initial angle of $15^\circ$. What is the speed of the pendulum bob at the bottom of its swing?
+Wahadło o długości 1,0 metra zostaje puszczone z początkowego kąta wychylenia $15^\circ$. Jaka jest prędkość ciężarka wahadła w najniższym punkcie toru?
 
-## 5. Energy & Momentum
+## 5. Energia i pęd
 
-A 0.5 kg block slides down a frictionless track from a height of 3.0 m. At the bottom, it collides and sticks to a 1.5 kg block, which is initially at rest. What is the speed of the combined mass just after the collision?
+Klocek o masie 0,5 kg zsuwa się po torze bez tarcia z wysokości 3,0 m. Na dole zderza się i skleja z klockiem o masie 1,5 kg, który początkowo spoczywa. Jaka jest prędkość połączonych mas tuż po zderzeniu?
 
-## 6. Horizontal Projectile
+## 6. Rzut poziomy
 
-A stone is thrown horizontally with a speed of $20 \text{ m/s}$ from the top of a cliff that is 50 m high. How far from the base of the cliff does the stone land?
+Kamień rzucono poziomo z prędkością $20 \text{ m/s}$ ze szczytu klifu o wysokości 50 m. W jakiej odległości od podstawy klifu upadnie kamień?
 
-## 7. Dynamics with Friction
+## 7. Dynamika z tarciem
 
-A 5 kg block is placed on a 10 kg block. A horizontal force of 45 N is applied to the 10 kg block, and the 5 kg block is tied to the wall. The coefficient of kinetic friction between all moving surfaces is 0.2. Find the acceleration of the 10 kg block.
+Klocek o masie 5 kg umieszczono na klocku o masie 10 kg. Do klocka o masie 10 kg przyłożono poziomą siłę 45 N, a klocek o masie 5 kg przywiązano do ściany. Współczynnik tarcia kinetycznego między wszystkimi poruszającymi się powierzchniami wynosi 0,2. Znajdź przyspieszenie klocka o masie 10 kg.
 
-## 8. Pendulum Design
+## 8. Konstrukcja wahadła
 
-What is the required length of a simple pendulum to have a period of exactly 1 second on Earth?
+Jaka jest wymagana długość wahadła matematycznego, aby jego okres na Ziemi wynosił dokładnie 1 sekundę?
 
-## 9. Kinematics Integration
+## 9. Całkowanie w kinematyce
 
-The velocity of an object is given by $v(t) = 4t + 5$. Find the displacement $x(t)$ and acceleration $a(t)$, assuming $x(0)=0$.
+Prędkość obiektu dana jest wzorem $v(t) = 4t + 5$. Znajdź przemieszczenie $x(t)$ i przyspieszenie $a(t)$, zakładając, że $x(0)=0$.
 
-## 10. Energy Dissipation
+## 10. Rozpraszanie energii
 
-A tennis ball is dropped from a height of $2.0$ m. After each bounce, it loses 30% of its mechanical energy. To what height does it rise after the second bounce?
+Piłka tenisowa została upuszczona z wysokości $2,0$ m. Po każdym odbiciu traci 30% swojej energii mechanicznej. Na jaką wysokość wzniesie się po drugim odbiciu?
 
-## 11. Dynamics I
+## 11. Dynamika I
 
-In a certain force field, the equations of motion of a particle with mass $m=0.5$ kg are as follows:
+W pewnym polu sił równania ruchu cząstki o masie $m=0,5$ kg są następujące:
 
 $$
 x = 5t^2 - t, \quad y = 2t^3, \quad z = -3t + 2
 $$
 
-Find the time dependence of: the particle's velocity, the particle's momentum, the particle's acceleration, the force acting on the particle, and the power transferred by the field to the particle.
+Znajdź zależność od czasu: prędkości cząstki, pędu cząstki, przyspieszenia cząstki, siły działającej na cząstkę oraz mocy przekazywanej cząstce przez pole.
 
-## 12. Dynamics II
+## 12. Dynamika II
 
-A particle of mass $m=3$ kg moves in a force field $F$ dependent on time in the following way:
+Cząstka o masie $m=3$ kg porusza się w polu sił $F$ zależnym od czasu w następujący sposób:
 
 $$
 F = (15t, 3t-12, -6t^2) \, \text{N}
 $$
 
-Assuming initial conditions $r_0=(5,2,-3)$ m, $v_0=(2,0,1)$ m/s, find the dependence of the particle's position and velocity on time.
+Zakładając warunki początkowe $r_0=(5,2,-3)$ m, $v_0=(2,0,1)$ m/s, znajdź zależność położenia i prędkości cząstki od czasu.
 
-## 13. Dynamics III
+## 13. Dynamika III
 
-A particle of mass $m$ moves in the $xy$ plane according to the following equations of motion:
+Cząstka o masie $m$ porusza się w płaszczyźnie $xy$ zgodnie z następującymi równaniami ruchu:
 
 $$
 x = a \cos(\omega t)
@@ -72,39 +72,38 @@ $$
 y = b \sin(\omega t)
 $$
 
-a) What trajectory does the particle follow?
+a) Po jakim torze porusza się cząstka?
 
-b) How do its velocity and kinetic energy depend on time?
+b) Jak zależą od czasu jej prędkość i energia kinetyczna?
 
-c) What is the magnitude and direction of the force acting on the particle?
+c) Jaka jest wartość i kierunek siły działającej na cząstkę?
 
-d) What is the work done by the force acting on the particle between points $(a,0)$ and $(0, b)$?
+d) Jaka praca jest wykonywana przez siłę działającą na cząstkę między punktami $(a,0)$ i $(0, b)$?
 
+## 14. Dynamika IV
 
-## 14. Dynamics IV
+Piłeczka pingpongowa traci ułamek $1/k$ swojej energii kinetycznej po uderzeniu o podłogę. Znajdź całkowitą drogę, jaką przebędzie piłeczka upuszczona z wysokości $h$, aż do momentu zatrzymania. Współczynnik $k>1$.
 
-A ping-pong ball loses $1/k$ fraction of its kinetic energy after hitting the floor. Find the total distance the ball will travel when dropped from a height $h$ until it stops. Coefficient $k>1$.
+## 15. Dynamika V
 
-## 15. Dynamics V
-
-A stone of mass $m$ was thrown with velocity $v_0$ into a well where the water level is at depth $d$. Assume that the stone falls freely in the air, while in the water, a resistance force proportional to velocity acts on it:
-
-$$
-F = -kv
-$$
-
-Find the dependence of the stone's position, velocity, and acceleration on time.
-
-## 16. Dynamics VI
-
-A ball of mass $m$ was thrown vertically upwards with velocity $v_0$. The air resistance force acting on the ball is given by the formula:
+Kamień o masie $m$ rzucono z prędkością $v_0$ do studni, w której poziom wody znajduje się na głębokości $d$. Załóż, że kamień spada swobodnie w powietrzu, natomiast w wodzie działa na niego siła oporu proporcjonalna do prędkości:
 
 $$
 F = -kv
 $$
 
-Find the equation of motion of the ball, the time of flight to the highest point of the trajectory, and the position of this point.
+Znajdź zależność położenia, prędkości i przyspieszenia kamienia od czasu.
 
-## 17. Dynamics VII
+## 16. Dynamika VI
 
-Solve the problem of projectile motion in a gravitational field when a resistance force proportional to velocity acts on the moving body. Find the differential equations of motion for $x(t)$ and $y(x)$, solve them, then find the maximum height, and the time to reach it. Discuss the case when the resistance force is much smaller than the body's weight.
+Piłkę o masie $m$ rzucono pionowo w górę z prędkością $v_0$. Siła oporu powietrza działająca na piłkę dana jest wzorem:
+
+$$
+F = -kv
+$$
+
+Znajdź równanie ruchu piłki, czas przelotu do najwyższego punktu toru oraz położenie tego punktu.
+
+## 17. Dynamika VII
+
+Rozwiąż problem ruchu pocisku w polu grawitacyjnym, gdy na poruszające się ciało działa siła oporu proporcjonalna do prędkości. Znajdź równania różniczkowe ruchu dla $x(t)$ i $y(t)$, rozwiąż je, a następnie znajdź maksymalną wysokość i czas do jej osiągnięcia. Omów przypadek, gdy siła oporu jest znacznie mniejsza niż waga ciała.

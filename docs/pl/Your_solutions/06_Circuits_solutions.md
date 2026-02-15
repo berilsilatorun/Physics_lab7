@@ -1,91 +1,91 @@
-# Section 6: Circuits
+# Sekcja 6: Obwody
 
-## 1. Series and Parallel Circuit
+## 1. Obwód szeregowy i równoległy
 
-You have three resistors, $R_1=15\,\Omega$, $R_2=30\,\Omega$, and $R_3=50\,\Omega$ and a 12 V battery.
+Masz trzy rezystory, $R_1=15\,\Omega$, $R_2=30\,\Omega$ oraz $R_3=50\,\Omega$, i baterię 12 V.
 
-a) Draw the circuit diagram.
+a) Narysuj schemat obwodu.
 
-b) Calculate the total equivalent resistance.
+b) Oblicz całkowity opór zastępczy.
 
-c) Calculate the current flowing from the battery.
+c) Oblicz natężenie prądu płynącego z baterii.
 
-Perform parts a), b), and c) separately for purely series and purely parallel configurations of the three resistors.
+Wykonaj punkty a), b) i c) oddzielnie dla konfiguracji czysto szeregowej i czysto równoległej tych trzech rezystorów.
 
-## 2. Mixed Circuit
+## 2. Obwód mieszany
 
-A resistor $R_1=10\,\Omega$ is connected in series with a parallel combination of two other resistors, $R_2=20\,\Omega$ and $R_3=20\,\Omega$. The entire circuit is connected to a 6 V source. What is the total current drawn from the source?
+Rezystor $R_1=10\,\Omega$ jest połączony szeregowo z równoległym układem dwóch innych rezystorów, $R_2=20\,\Omega$ i $R_3=20\,\Omega$. Cały obwód jest podłączony do źródła 6 V. Jaki jest całkowity prąd pobierany ze źródła?
 
-## 3. Resistors
+## 3. Rezystory
 
-You have a supply of exactly three $1\,\Omega$ resistors. What are all the possible equivalent resistances you can create by combining them? List all unique values and draw the corresponding circuit diagrams.
+Masz zapas dokładnie trzech rezystorów $1\,\Omega$. Jakie są wszystkie możliwe opory zastępcze, które możesz uzyskać, łącząc je? Wymień wszystkie unikalne wartości i narysuj odpowiadające im schematy obwodów.
 
-## 4. Resistors again
+## 4. Znowu rezystory
 
-You have some supply of $1\,\Omega$ resistors. How can you combine them to create an equivalent resistance of $2.5\,\Omega$?
+Masz pewien zapas rezystorów $1\,\Omega$. Jak możesz je połączyć, aby uzyskać opór zastępczy $2.5\,\Omega$?
 
-## 5. Kirchhoff's Laws
+## 5. Prawa Kirchhoffa
 
-Using Kirchhoff's laws, find the currents $I_1, I_2, I_3$ in a circuit with two loops. Loop 1 (left): a 10V battery and a $2\Omega$ resistor, shared branch in the middle. Loop 2 (right): a 5V battery and a $3\Omega$ resistor. The shared branch has a $5\Omega$ resistor. Assume currents are flowing out of the positive terminals.
+Korzystając z praw Kirchhoffa, znajdź natężenia prądów $I_1, I_2, I_3$ w obwodzie z dwiema pętlami. Pętla 1 (lewa): bateria 10V i rezystor $2\Omega$, wspólna gałąź w środku. Pętla 2 (prawa): bateria 5V i rezystor $3\Omega$. Wspólna gałąź ma rezystor $5\Omega$. Załóż, że prądy wypływają z biegunów dodatnich.
 
-## 6. Kirchhoff's Laws again
+## 6. Znowu prawa Kirchhoffa
 
-For a circuit consisting of a 2V battery and a 1-ohm resistor in the left loop, and a 1V battery and a 3-ohm resistor in the right loop, with a 2-ohm resistor in the middle branch, calculate all currents.
+Dla obwodu składającego się z baterii 2V i rezystora 1 om w lewej pętli, oraz baterii 1V i rezystora 3 omy w prawej pętli, z rezystorem 2 omy w środkowej gałęzi, oblicz wszystkie natężenia prądów.
 
-## 7. Capacitors in Parallel
+## 7. Kondensatory połączone równolegle
 
-Two capacitors, $C_1=4\,\mu\text{F}$ and $C_2=6\,\mu\text{F}$, are connected in parallel to a 10 V battery. What is the total charge stored on the capacitors? What is the total energy stored?
+Dwa kondensatory, $C_1=4\,\mu\text{F}$ i $C_2=6\,\mu\text{F}$, są połączone równolegle do baterii 10 V. Jaki jest całkowity ładunek zgromadzony na kondensatorach? Jaka jest całkowita zgromadzona energia?
 
-## 8. Capacitor mixed
+## 8. Kondensator w układzie mieszanym
 
-Find the equivalent capacitance for a circuit where a $10\,\mu \text{F}$ capacitor is in series with a parallel combination of a $5\,\mu \text{F}$ capacitor and a $20\,\mu \text{F}$ capacitor.
+Znajdź pojemność zastępczą dla obwodu, w którym kondensator $10\,\mu \text{F}$ jest połączony szeregowo z równoległym układem kondensatora $5\,\mu \text{F}$ i kondensatora $20\,\mu \text{F}$.
 
-## 9. Charge Storage
+## 9. Gromadzenie ładunku
 
-How much charge is stored on a $100\,\mu\text{F}$ capacitor when it is connected to a 20 V source?
+Jaki ładunek zostanie zgromadzony na kondensatorze $100\,\mu\text{F}$, gdy zostanie on podłączony do źródła 20 V?
 
-## 10. AC Voltage Equation
+## 10. Równanie napięcia przemiennego
 
-The current in an AC circuit is given by $I(t) = 2 \sin(120\pi t)$. If the circuit consists of a single $50\,\Omega$ resistor, what is the equation for the voltage $V(t)$ across it?
+Natężenie prądu w obwodzie prądu przemiennego dane jest wzorem $I(t) = 2 \sin(120\pi t)$. Jeśli obwód składa się z pojedynczego rezystora $50\,\Omega$, jakie jest równanie na napięcie $V(t)$ na nim?
 
-## 11. Average Current
+## 11. Średnie natężenie prądu
 
-A lightning bolt transfers a charge of 30 Coulombs to the ground in a time of 2 milliseconds. What is the average current of the lightning bolt?
+Piorun przenosi ładunek 30 kulombów do ziemi w czasie 2 milisekund. Jakie jest średnie natężenie prądu pioruna?
 
-## 12. Current
+## 12. Natężenie prądu
 
-Charge flowing through the wire is given by the function of time $Q(t) = 5t^2+5$. What is the current at $t=3$ s?
+Ładunek przepływający przez przewód jest dany funkcją czasu $Q(t) = 5t^2+5$. Jaki jest prąd w chwili $t=3$ s?
 
-## 13. Power & Energy
+## 13. Moc i energia
 
-What is the power dissipated by a $100\,\Omega$ resistor when a voltage of 50 V is applied across it? How much energy is consumed in 5 minutes?
+Jaka moc wydziela się na rezystorze $100\,\Omega$, gdy przyłożone jest do niego napięcie 50 V? Ile energii zostanie zużyte w ciągu 5 minut?
 
-## 14. Transformer Currents
+## 14. Prądy w transformatorze
 
-A transformer has a primary coil with 1000 turns and a secondary coil with 200 turns. If the primary voltage is $120\text{ V}$ (AC), what is the secondary voltage? If the current in the secondary is $3\text{ A}$, what is the current in the primary?
+Transformator ma uzwojenie pierwotne o 1000 zwojów i uzwojenie wtórne o 200 zwojach. Jeśli napięcie pierwotne wynosi $120\text{ V}$ (AC), jakie jest napięcie wtórne? Jeśli natężenie prądu w uzwojeniu wtórnym wynosi $3\text{ A}$, jakie jest natężenie w uzwojeniu pierwotnym?
 
-## 15. Transformer Ratio
+## 15. Przekładnia transformatora
 
-A transformer is used to step down the voltage from 120 V AC to 9.0 V AC. If the primary coil has 400 turns, how many turns must the secondary coil have?
+Transformator służy do obniżenia napięcia ze 120 V AC na 9,0 V AC. Jeśli uzwojenie pierwotne ma 400 zwojów, ile zwojów musi mieć uzwojenie wtórne?
 
-## 16. RLC Circuit
+## 16. Obwód RLC
 
-Write down the differential equation for a series RLC circuit with a voltage source $V$, a resistor $R$, an inductor $L$, and a capacitor $C$. Assume the current is $I(t)$ and the voltage across the capacitor is $V_C(t)$. Compare this to the equation of a damped harmonic oscillator. What are the analogies between the terms in the two equations?
+Zapisz równanie różniczkowe dla szeregowego obwodu RLC ze źródłem napięcia $V$, rezystorem $R$, cewką $L$ i kondensatorem $C$. Załóż, że natężenie prądu to $I(t)$, a napięcie na kondensatorze to $V_C(t)$. Porównaj to z równaniem tłumionego oscylatora harmonicznego. Jakie są analogie między wyrazami w obu równaniach?
 
-## 17. RLC Impedance
+## 17. Impedancja RLC
 
-A series RLC circuit has $R=20\,\Omega$, $L=10 \text{ mH}$, and $C=50\,\mu\text{F}$. It is connected to an AC source with a frequency of 100 Hz.
+Szeregowy obwód RLC ma $R=20\,\Omega$, $L=10 \text{ mH}$ i $C=50\,\mu\text{F}$. Jest podłączony do źródła prądu przemiennego o częstotliwości 100 Hz.
 
-a) Calculate the inductive reactance ($X_L$).
+a) Oblicz reaktancję indukcyjną ($X_L$).
 
-b) Calculate the capacitive reactance ($X_C$).
+b) Oblicz reaktancję pojemnościową ($X_C$).
 
-c) Calculate the total impedance ($Z$) of the circuit.
+c) Oblicz całkowitą impedancję ($Z$) obwodu.
 
-## 18. Resonance
+## 18. Rezonans
 
-For the RLC circuit in the previous problem, what is the resonant frequency? What would the impedance of the circuit be at resonance?
+Dla obwodu RLC z poprzedniego zadania, jaka jest częstotliwość rezonansowa? Jaka byłaby impedancja obwodu w rezonansie?
 
-## 19. Resistor Cube
+## 19. Sześcian rezystorów
 
-A cube is constructed from 12 identical resistors on its edges, each with resistance R. What is the equivalent resistance between two opposite corners of the cube?
+Sześcian jest zbudowany z 12 identycznych rezystorów na krawędziach, każdy o oporze R. Jaki jest opór zastępczy między dwoma przeciwległymi wierzchołkami sześcianu?

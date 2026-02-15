@@ -1,41 +1,41 @@
-# Section 10: Relativity
+# Sekcja 10: Teoria względności
 
-## 1. Length Contraction
+## 1. Skrócenie długości
 
-At what speed must a *1-meter-long ruler* travel for its length to be observed as 0.5 meters due to length contraction?
+Z jaką prędkością musi poruszać się *metrowa linijka*, aby jej długość została zaobserwowana jako 0,5 metra na skutek skrócenia długości (kontrakcji Lorentza)?
 
-## 2. Time Dilation
+## 2. Dylatacja czasu
 
-Two identical devices, each playing a series of 1-hour episodes of a TV show, were built and synchronized on Earth. One device stayed on Earth, while the other was placed on a spaceship that was immediately accelerated to relativistic speed. How fast must the spaceship be moving for the device on Earth to have played 2 episodes while the device on the spaceship has played only 1 episode?
+Dwa identyczne urządzenia, z których każde odtwarza serię 1-godzinnych odcinków serialu telewizyjnego, zostały zbudowane i zsynchronizowane na Ziemi. Jedno urządzenie zostało na Ziemi, podczas gdy drugie umieszczono na statku kosmicznym, który natychmiast przyspieszono do prędkości relatywistycznej. Jak szybko musi poruszać się statek kosmiczny, aby urządzenie na Ziemi odtworzyło 2 odcinki, podczas gdy urządzenie na statku odtworzyło tylko 1 odcinek?
 
-## 3. Time Dilation in Real Life
+## 3. Dylatacja czasu w rzeczywistości
 
-A muon has an average lifetime of $2.20\,\mu\text{s}$ in its own rest frame. If it travels at $0.990c$, what will its average lifetime be as measured by an observer on Earth?
+Mion ma średni czas życia $2.20\,\mu\text{s}$ we własnym układzie spoczynkowym. Jeśli podróżuje z prędkością $0.990c$, jaki będzie jego średni czas życia zmierzony przez obserwatora na Ziemi?
 
-## 4. High-Energy Physics
+## 4. Fizyka wysokich energii
 
-How much energy (in GeV) is required to accelerate a proton from rest to a speed of $0.99c$? The rest mass of a proton is approximately $938 \text{ MeV/c}^2$.
+Ile energii (w GeV) potrzeba, aby przyspieszyć proton ze spoczynku do prędkości $0.99c$? Masa spoczynkowa protonu wynosi w przybliżeniu $938 \text{ MeV/c}^2$.
 
-## 5. Relativistic Mass
+## 5. Masa relatywistyczna
 
-What is the relativistic mass of a 50 kg supermodel traveling at 99.9% of the speed of light?
+Jaka jest masa relatywistyczna supermodelki o masie 50 kg podróżującej z prędkością 99,9% prędkości światła?
 
-## 6. Mass-Energy
+## 6. Masa-Energia
 
-The "Little Boy" atomic bomb converted approximately 0.7 grams of mass into energy. Using $E=mc^2$, calculate the energy released in Joules. (1 kiloton of TNT is approximately $4.184 \times 10^{12}$ J).
+Bomba atomowa „Little Boy” zamieniła około 0,7 grama masy w energię. Korzystając ze wzoru $E=mc^2$, oblicz energię wyzwoloną w dżulach. (1 kilotona TNT to około $4.184 \times 10^{12}$ J).
 
-## 7. Velocity Transformation
+## 7. Transformacja prędkości
 
-A rocket traveling at $0.8c$ away from Earth shoots a probe forward at $0.5c$ relative to the rocket. What is the probe's speed as measured by an observer on Earth according to classical mechanics, and what is it according to special relativity?
+Rakieta podróżująca z prędkością $0.8c$ oddalająca się od Ziemi wystrzeliwuje sondę do przodu z prędkością $0.5c$ względem rakiety. Jaka jest prędkość sondy zmierzona przez obserwatora na Ziemi według mechaniki klasycznej, a jaka według szczególnej teorii względności?
 
-## 8. Adding Velocities
+## 8. Dodawanie prędkości
 
-What would happen to the relative velocities of two objects moving away from each other if one of the objects is moving at the speed of light?
+Co stałoby się z prędkościami względnymi dwóch obiektów oddalających się od siebie, gdyby jeden z obiektów poruszał się z prędkością światła?
 
-## 9. Twin Paradox
+## 9. Paradoks bliźniąt
 
-An astronaut spends one year on the International Space Station (ISS), which travels at about $7.66 \text{ km/s}$. How much younger would the astronaut be than their twin on Earth due to the kinetic time dilation?
+Astronauta spędza rok na Międzynarodowej Stacji Kosmicznej (ISS), która porusza się z prędkością około $7.66 \text{ km/s}$. O ile młodszy byłby astronauta od swojego bliźniaka na Ziemi z powodu kinetycznej dylatacji czasu?
 
-## 10. Gravitational Time Dilation
+## 10. Grawitacyjna dylatacja czasu
 
-How much younger would the astronaut be than their twin on Earth purely due to gravitational time dilation after one year? Assume the ISS orbits at an altitude of 400 km above Earth's surface.
+O ile młodszy byłby astronauta od swojego bliźniaka na Ziemi wyłącznie z powodu grawitacyjnej dylatacji czasu po upływie jednego roku? Załóż, że ISS krąży na wysokości 400 km nad powierzchnią Ziemi.

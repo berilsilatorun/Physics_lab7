@@ -1,41 +1,41 @@
-# Section 11: Modern Physics I
+# Sekcja 11: Fizyka współczesna I
 
-## 1. De Broglie Wavelength
+## 1. Długość fali de Broglie'a
 
-Calculate the de Broglie wavelength of an electron with a kinetic energy of 150 eV.
+Oblicz długość fali de Broglie'a elektronu o energii kinetycznej 150 eV.
 
-## 2. Macroscopic Limits
+## 2. Granice makroskopowe
 
-Calculate the de Broglie wavelength of a 50-gram golf ball traveling at a speed of 60 m/s. Why are quantum effects not noticeable for macroscopic objects?
+Oblicz długość fali de Broglie'a piłeczki golfowej o masie 50 gramów poruszającej się z prędkością 60 m/s. Dlaczego efekty kwantowe nie są zauważalne dla obiektów makroskopowych?
 
-## 3. Photon vs Electron
+## 3. Foton a elektron
 
-What happens to the energy of a photon if its wavelength is doubled? What happens to the kinetic energy of an electron (non-relativistically) if its de Broglie wavelength is doubled?
+Co dzieje się z energią fotonu, jeśli jego długość fali zostanie podwojona? Co dzieje się z energią kinetyczną elektronu (nierelatywistycznie), jeśli jego długość fali de Broglie'a zostanie podwojona?
 
-## 4. Photoelectric Effect
+## 4. Efekt fotoelektryczny
 
-The work function of potassium is 2.3 eV. What is the maximum kinetic energy of electrons ejected from potassium when it is illuminated with ultraviolet light of wavelength 350 nm?
+Praca wyjścia dla potasu wynosi 2,3 eV. Jaka jest maksymalna energia kinetyczna elektronów wybitych z potasu, gdy jest on oświetlony światłem ultrafioletowym o długości fali 350 nm?
 
-## 5. Heisenberg Principle
+## 5. Zasada Heisenberga
 
-Using the Heisenberg Uncertainty Principle ($\Delta x \Delta p \ge \hbar/2$), what is the minimum uncertainty in the velocity of an electron that is confined within a region of space 0.1 nm wide (the size of an atom)?
+Korzystając z zasady nieoznaczoności Heisenberga ($\Delta x \Delta p \ge \hbar/2$), jaka jest minimalna nieoznaczoność prędkości elektronu, który jest uwięziony w obszarze przestrzeni o szerokości 0,1 nm (rozmiar atomu)?
 
-## 6. Emission Spectra
+## 6. Widma emisyjne
 
-Calculate the energy of the photon emitted by a hydrogen atom when an electron transitions from the n=3 state to the n=1 state. What is the wavelength of this photon?
+Oblicz energię fotonu wyemitowanego przez atom wodoru, gdy elektron przechodzi ze stanu n=3 do stanu n=1. Jaka jest długość fali tego fotonu?
 
-## 7. Bohr Model
+## 7. Model Bohra
 
-Calculate the radius of the second orbit (n=2) in a hydrogen atom using the Bohr model.
+Oblicz promień drugiej orbity (n=2) w atomie wodoru, korzystając z modelu Bohra.
 
-## 8. Angular Momentum
+## 8. Moment pędu
 
-What is the angular momentum of an electron in the n=4 state of a hydrogen atom, according to the Bohr model?
+Jaki jest moment pędu elektronu w stanie n=4 atomu wodoru, zgodnie z modelem Bohra?
 
-## 9. Threshold Frequency
+## 9. Częstotliwość graniczna
 
-For light, at what frequency will the photoelectric effect begin for a metal with a work function of 4.5 eV?
+Dla światła, przy jakiej częstotliwości rozpocznie się zjawisko fotoelektryczne dla metalu o pracy wyjścia 4,5 eV?
 
-## 10. X-Ray Production
+## 10. Wytwarzanie promieniowania rentgenowskiego
 
-What is the minimum potential difference that must be applied across an X-ray tube to produce X-rays with a wavelength of $0.01$ nm? (Hint: $E = hf = hc/\lambda = qV$).
+Jaka minimalna różnica potencjałów musi zostać przyłożona do lampy rentgenowskiej, aby wytworzyć promieniowanie rentgenowskie o długości fali $0.01$ nm? (Wskazówka: $E = hf = hc/\lambda = qV$).

@@ -1,45 +1,45 @@
-# Section 4: Electromagnetism I
+# Sekcja 4: Elektromagnetyzm I
 
-## 1. Coulomb's Law
+## 1. Prawo Coulomba
 
-Four point charges of +1.0 C each are placed at the corners of a square with sides of 1.0 m. Calculate the magnitude and direction of the electric force on a charge of -2.0 C placed at the center of the square.
+Cztery ładunki punktowe o wartości +1,0 C każdy umieszczono w narożnikach kwadratu o boku 1,0 m. Oblicz wartość i kierunek siły elektrycznej działającej na ładunek -2,0 C umieszczony w środku kwadratu.
 
-## 2. Electric Potential
+## 2. Potencjał elektryczny
 
-Point charges of +1C, -2C, +3C, and -4C are placed at the corners of a square with sides of 1.0 m (in order). Calculate the electric potential at the center of the square.
+Ładunki punktowe o wartościach +1C, -2C, +3C i -4C umieszczono w narożnikach kwadratu o boku 1,0 m (w kolejności). Oblicz potencjał elektryczny w środku kwadratu.
 
-## 3. Electrostatic Equilibrium
+## 3. Równowaga elektrostatyczna
 
-Find the equilibrium position for a charge $q_3 = +1\text{C}$ placed on the line between a charge $q_1 = +4\text{C}$ and a charge $q_2 = +9\text{C}$, which are separated by a distance of 2 m.
+Znajdź położenie równowagi dla ładunku $q_3 = +1\text{C}$ umieszczonego na linii łączącej ładunek $q_1 = +4\text{C}$ z ładunkiem $q_2 = +9\text{C}$, które są oddalone od siebie o 2 m.
 
-## 4. Force Comparison
+## 4. Porównanie sił
 
-Calculate the magnitude of the electric force and the gravitational force between an electron and a proton in a hydrogen atom (average distance $r \approx 5.3 \times 10^{-11} \text{ m}$). What is the ratio $F_e/F_g$?
+Oblicz wartość siły elektrycznej i siły grawitacji między elektronem a protonem w atomie wodoru (średnia odległość $r \approx 5.3 \times 10^{-11} \text{ m}$). Jaki jest stosunek $F_e/F_g$?
 
-## 5. Field Levitation
+## 5. Lewitacja w polu
 
-What electric field strength is required to make a proton levitate against Earth's gravity at the level of the Earth's surface? (Mass of proton $m_p \approx 1.67 \times 10^{-27} \text{ kg}$, charge of proton $e \approx 1.6 \times 10^{-19} \text{ C}$, gravitational acceleration $g \approx 9.8 \text{ m/s}^2$).
+Jakie natężenie pola elektrycznego jest wymagane, aby sprawić, by proton lewitował wbrew grawitacji ziemskiej na poziomie powierzchni Ziemi? (Masa protonu $m_p \approx 1.67 \times 10^{-27} \text{ kg}$, ładunek protonu $e \approx 1.6 \times 10^{-19} \text{ C}$, przyspieszenie ziemskie $g \approx 9.8 \text{ m/s}^2$).
 
-## 6. Cyclotron Motion
+## 6. Ruch cyklotronowy
 
-An electron is accelerated from rest through a potential difference of 5000 V. It then enters a region of uniform magnetic field B = 0.1 T, perpendicular to its velocity. What is the radius of the circular path it will follow?
+Elektron jest przyspieszany ze spoczynku przez różnicę potencjałów 5000 V. Następnie wpada w obszar jednorodnego pola magnetycznego B = 0,1 T, prostopadle do swojej prędkości. Jaki jest promień toru kołowego, po którym będzie się poruszał?
 
-## 7. Lorentz Force
+## 7. Siła Lorentza
 
-A charged particle with charge $q = 2 \times 10^{-19}$ C and mass $m = 4 \times 10^{-27}$ kg enters a magnetic field of $B = 0.5$ T at a speed of $v = 10^6$ m/s perpendicular to the field. What is the magnitude of the Lorentz force acting on the particle?
+Naładowana cząstka o ładunku $q = 2 \times 10^{-19}$ C i masie $m = 4 \times 10^{-27}$ kg wpada w pole magnetyczne o indukcji $B = 0.5$ T z prędkością $v = 10^6$ m/s prostopadłą do pola. Jaka jest wartość siły Lorentza działającej na cząstkę?
 
-## 8. Vector Lorentz Force
+## 8. Wektorowa siła Lorentza
 
-A proton moves with a velocity $\vec{v} = (2\hat{i} - 4\hat{j} + \hat{k}) \text{ m/s}$ in a region where the magnetic field is $\vec{B} = (\hat{i} + 2\hat{j} - \hat{k}) \text{ T}$. What is the magnitude of the magnetic force this charge experiences?
+Proton porusza się z prędkością $\vec{v} = (2\hat{i} - 4\hat{j} + \hat{k}) \text{ m/s}$ w obszarze, gdzie pole magnetyczne wynosi $\vec{B} = (\hat{i} + 2\hat{j} - \hat{k}) \text{ T}$. Jaka jest wartość siły magnetycznej, której doświadcza ten ładunek?
 
-## 9. Lorentz Force on Wire
+## 9. Siła Lorentza działająca na przewód
 
-A straight wire 2.0 m long carries a current of 10 A. It is placed in a uniform magnetic field of B = 0.5 T. Calculate the magnetic force on the wire if the angle between the wire and the magnetic field is:
+Prosty przewód o długości 2,0 m przewodzi prąd o natężeniu 10 A. Umieszczony jest w jednorodnym polu magnetycznym o indukcji B = 0,5 T. Oblicz siłę magnetyczną działającą na przewód, jeśli kąt między przewodem a polem magnetycznym wynosi:
 
 a) $90^\circ$
 b) $45^\circ$
 c) $0^\circ$
 
-## 10. Mass Spectrometry
+## 10. Spektrometria mas
 
-A proton (charge $+e$, mass $m_p$) and an alpha particle (charge $+2e$, mass $\approx 4m_p$) enter a uniform magnetic field with the same velocity, perpendicular to the field lines. What is the ratio of the radii of their circular paths, $r_p / r_\alpha$?
+Proton (ładunek $+e$, masa $m_p$) i cząstka alfa (ładunek $+2e$, masa $\approx 4m_p$) wpadają w jednorodne pole magnetyczne z tą samą prędkością, prostopadle do linii pola. Jaki jest stosunek promieni ich torów kołowych, $r_p / r_\alpha$?

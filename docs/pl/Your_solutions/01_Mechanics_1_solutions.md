@@ -1,54 +1,54 @@
-# Section 1: Mechanics I
+# Sekcja 1: Mechanika I
 
-## 1. Projectile Motion
+## 1. Rzut ukośny
 
-A projectile is fired from the ground with an initial velocity of $100  \text{ m/s}$ at an angle of $37^\circ$ above the horizontal. Calculate:
+Pocisk zostaje wystrzelony z ziemi z prędkością początkową $100 \text{ m/s}$ pod kątem $37^\circ$ do poziomu. Oblicz:
 
-a) The maximum height reached.
+a) Maksymalną osiągniętą wysokość.
 
-b) The total time of flight.
+b) Całkowity czas lotu.
 
-c) The horizontal range of the projectile.
+c) Zasięg poziomy pocisku.
 
-## 2. Range Optimization
+## 2. Optymalizacja zasięgu
 
-For projectile motion, show analytically that the maximum range for a given initial velocity is achieved at a launch angle of $45^\circ$.
+Dla rzutu ukośnego wykaż analitycznie, że maksymalny zasięg dla danej prędkości początkowej jest osiągany przy kącie wyrzutu $45^\circ$.
 
-## 3. Path Intersection
+## 3. Przecięcie torów
 
-Alice is moving along a path described by $A(t) = (2+t, 8-3t)$ and Bob is moving along a path $B(t) = (2t-1, 2t+2)$. Determine if their paths intersect. Will they collide at the same time?
+Alicja porusza się po torze opisanym przez $A(t) = (2+t, 8-3t)$, a Bob porusza się po torze $B(t) = (2t-1, 2t+2)$. Określ, czy ich tory się przecinają. Czy zderzą się w tym samym czasie?
 
-## 4. 2D Collision
+## 4. Zderzenie w 2D
 
-Two cannons are aimed at each other. The first cannon at $(0,0)$ fires a projectile with an initial velocity of $[100 \text{ m/s}, 80 \text{ m/s}]$. The second cannon at $(800 \text{ m}, 0)$ fires a projectile with a velocity of $[-100 \text{ m/s}, 80 \text{ m/s}]$. At what time $t$ and at what point $(x,y)$ will they collide?
+Dwie armaty są wycelowane w siebie. Pierwsza armata w punkcie $(0,0)$ wystrzeliwuje pocisk z prędkością początkową $[100 \text{ m/s}, 80 \text{ m/s}]$. Druga armata w punkcie $(800 \text{ m}, 0)$ wystrzeliwuje pocisk z prędkością $[-100 \text{ m/s}, 80 \text{ m/s}]$. W jakim czasie $t$ i w jakim punkcie $(x,y)$ nastąpi zderzenie?
 
-## 5. Relative Velocity
+## 5. Prędkość względna
 
-A river flows east at $2 \text{m/s}$. A boat that can travel at $5 \text{m/s}$ in still water wants to go directly north across the river. In what direction (angle) should it head? How long will it take to cross the river if it's 200 meters wide?
+Rzeka płynie na wschód z prędkością $2 \text{m/s}$. Łódź, która może podróżować z prędkością $5 \text{m/s}$ na stojącej wodzie, chce przepłynąć rzekę bezpośrednio na północ. W jakim kierunku (kąt) powinna się kierować? Ile czasu zajmie jej przepłynięcie rzeki, jeśli ma ona 200 metrów szerokości?
 
-## 6. Variable Velocity
+## 6. Prędkość zmienna
 
-An object's velocity is given by $v(t) = t^2 + 2t - 5$. If the object is at $x=4$ at $t=0$, what is its position at $t=3$?
+Prędkość obiektu jest dana wzorem $v(t) = t^2 + 2t - 5$. Jeśli obiekt znajduje się w $x=4$ w chwili $t=0$, jakie jest jego położenie w chwili $t=3$?
 
-## 7. Vertical Collision
+## 7. Zderzenie pionowe
 
-A stone is thrown vertically upward with a speed of $20 \text{m/s}$. A second stone is thrown vertically upward with a speed of $30 \text{m/s}$ exactly one second later. At what time and height do they collide?
+Kamień zostaje rzucony pionowo w górę z prędkością $20 \text{m/s}$. Drugi kamień zostaje rzucony pionowo w górę z prędkością $30 \text{m/s}$ dokładnie jedną sekundę później. W jakim czasie i na jakiej wysokości się zderzą?
 
-## 8. Circular Motion
+## 8. Ruch po okręgu
 
-Calculate the centripetal acceleration of a person standing on the Earth's equator. The Earth's radius is approximately 6378 km.
+Oblicz przyspieszenie dośrodkowe osoby stojącej na równiku Ziemi. Promień Ziemi wynosi w przybliżeniu 6378 km.
 
-## 9. Momentum Comparison
+## 9. Porównanie pędu
 
-Which has greater momentum: a 2-gram fly flying at $10$ m/s or a 60-gram tennis ball moving at $1$ m/s?
+Co ma większy pęd: mucha o masie 2 gramów lecąca z prędkością $10$ m/s czy piłka tenisowa o masie 60 gramów poruszająca się z prędkością $1$ m/s?
 
-## 10. Vector Calculus
+## 10. Rachunek wektorowy
 
-The position of an object is given by $\vec{r}(t) = (3t^2)\hat{i} + (5t - 8t^2)\hat{j}$. Find the object's velocity and acceleration vectors as a function of time.
+Położenie obiektu jest dane wzorem $\vec{r}(t) = (3t^2)\hat{i} + (5t - 8t^2)\hat{j}$. Znajdź wektory prędkości i przyspieszenia obiektu w funkcji czasu.
 
-## 11. Kinematics - I
+## 11. Kinematyka - I
 
-The motion of a point is described by the equations:
+Ruch punktu opisany jest równaniami:
 
 $$
 x = \frac{a}{2}(e^{kt} + e^{-kt})
@@ -58,47 +58,34 @@ $$
 y = \frac{a}{2}(e^{kt} - e^{-kt})
 $$
 
-a) Find and draw the trajectory along which the point moves.
+a) Znajdź i narysuj trajektorię, po której porusza się punkt.
 
-b) Find the radius of curvature of the trajectory $\rho$.
+b) Znajdź promień krzywizny trajektorii $\rho$.
 
+## 12. Kinematyka - II
 
-## 12. Kinematics - II
-
-Point M moves according to the equation:
+Punkt M porusza się zgodnie z równaniem:
 
 $$
 r = (a \cos\omega t, a \sin\omega t, bt)
 $$
 
-where $a, b, \omega$ are positive constants. Find:
+gdzie $a, b, \omega$ są stałymi dodatnimi. Znajdź:
 
-a) the equation of the point's trajectory,
+a) równanie trajektorii punktu,
 
-b) the path length of the point from time $t=0$ to $t=t_0$,
+b) długość drogi punktu od czasu $t=0$ do $t=t_0$,
 
-c) the radius of curvature of the trajectory $\rho$.
+c)Promień krzywizny trajektorii $\rho$.
 
-Draw the trajectory of the point. Discuss special cases.
+Narysuj trajektorię punktu. Omów przypadki szczególne.
 
-## 13. Kinematics - III
+## 14. Kinematyka - IV
 
-A body was thrown at an angle $\alpha$ to the horizontal with an initial velocity $v_0$. Neglecting air resistance and assuming the value of gravitational acceleration $g$, find:
+Załóż, że samolot myśliwski z napędem dystonowców od momentu rozpoczęcia ruchu na pasie startowym aż do osiągnięcia prędkości końcowej porusza się ruchem jednostajnie przyspieszonym z przyspieszeniem $a$. Po upływie czasu $T$ od chwili startu samolotu na pasie startowym następuje detonacja ładunku wybuchowego.
 
-a) the equations of motion of the body,
+a) Jaki warunek musi być spełniony, aby fala dźwiękowa dosięgnęła samolot?
 
-b) the equation of the body's trajectory,
+b) Określ czas, w którym samolot i fala dźwiękowa będą w tym samym punkcie przestrzeni w tym samym momencie.
 
-c) the value of the radius of curvature of the trajectory $\rho$ depending on the abscissa $x$ of the body's position.
-
-Discuss the values of the radius of curvature for the cases: $y=0$ and $y=h_{max}$.
-
-## 14. Kinematics - IV
-
-Assume that a supersonic jet-powered aircraft, from the moment it starts moving on the runway until it reaches its final velocity, moves with uniformly accelerated motion with acceleration $a$. After a time $T$ from the moment the aircraft started, an explosive charge detonates at the same spot on the runway.
-
-a) What condition must be met for the sound wave to reach the aircraft (neglecting effects related to the attenuation of wave energy with increasing distance)?
-
-b) Determine the time at which the aircraft and the sound wave will be at the same point in space at the same instant.
-
-c) Solve the problem using the graphical method. Consider all possible cases.
+c) Rozwiąż zadanie metodą graficzną. Rozważ wszystkie możliwe przypadki.

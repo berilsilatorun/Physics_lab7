@@ -1,44 +1,44 @@
-# Section 3: Waves
+# Sekcja 3: Fale
 
-## 1. Wave Properties
+## 1. Właściwości fal
 
-A sound wave in air has a frequency of 440 Hz. If the speed of sound in air is 343 m/s, what is its wavelength? What is its wavelength in water, where the speed of sound is 1482 m/s?
+Fala dźwiękowa w powietrzu ma częstotliwość 440 Hz. Jeśli prędkość dźwięku w powietrzu wynosi 343 m/s, jaka jest jej długość fali? Jaka jest jej długość fali w wodzie, gdzie prędkość dźwięku wynosi 1482 m/s?
 
-## 2. String Harmonics
+## 2. Harmoniki struny
 
-A guitar string is 64 cm long and has a fundamental frequency (one antinode) of 330 Hz. What is the speed of the wave on this string?
+Struna gitarowa ma długość 64 cm i częstotliwość podstawową (jedną strzałkę) równą 330 Hz. Jaka jest prędkość fali na tej strunie?
 
-## 3. Superposition Principle
+## 3. Zasada superpozycji
 
-Two waves are described by the equations $y_1(x, t) = A \sin(kx - \omega t)$ and $y_2(x, t) = A \sin(kx + \omega t)$. What is the equation of the resulting standing wave? Identify the positions of the nodes.
+Dwie fale opisane są równaniami $y_1(x, t) = A \sin(kx - \omega t)$ oraz $y_2(x, t) = A \sin(kx + \omega t)$. Jakie jest równanie powstałej fali stojącej? Określ położenia węzłów.
 
-## 4. Echo Ranging
+## 4. Echolokacja
 
-A person shouts towards a cliff and hears the echo 4.0 seconds later. How far away is the cliff? (Speed of sound in air is 343 m/s).
+Osoba krzyczy w kierunku klifu i słyszy echo 4,0 sekundy później. Jak daleko znajduje się klif? (Prędkość dźwięku w powietrzu wynosi 343 m/s).
 
-## 6. Wave Equation
+## 6. Równanie falowe
 
-A wave is described by the equation $y(x,t) = 0.05 \sin(2\pi x - 50\pi t)$, where x and y are in meters and t is in seconds. Determine the waves':
+Fala opisana jest równaniem $y(x,t) = 0.05 \sin(2\pi x - 50\pi t)$, gdzie x i y są w metrach, a t w sekundach. Wyznacz dla tej fali:
 
-a) Amplitude
+a) Amplitudę
 
-b) Wavelength
+b) Długość fali
 
-c) Frequency
+c) Częstotliwość
 
-d) Speed
+d) Prędkość
 
-## 7. Phase Difference
+## 7. Różnica faz
 
-What is the phase difference in radians between two points on a wave that are separated by a distance of $\lambda/3$? 
+Jaka jest różnica faz w radianach między dwoma punktami na fali, które są oddalone od siebie o odległość $\lambda/3$?
 
-## 8. Standing Wave Modes
+## 8. Mody fali stojącej
 
-A standing wave with four antinodes is produced on a string of length L = 80 cm. What is the wavelength of this wave?
+Fala stojąca z czterema strzałkami powstaje na strunie o długości L = 80 cm. Jaka jest długość tej fali?
 
-## 9. Waves
+## 9. Fale
 
-Which of the following functions can describe a traveling wave? (Hint: check if it satisfies the wave equation $\frac{\partial^2 y}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 y}{\partial t^2}$)
+Która z poniższych funkcji może opisywać falę biegnącą? (Wskazówka: sprawdź, czy spełnia równanie falowe $\frac{\partial^2 y}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 y}{\partial t^2}$)
 
 a) $y(x,t) = A \cos(kx^2 - \omega t)$
 
@@ -46,39 +46,38 @@ b) $y(x,t) = A(x-vt)^2$
 
 c) $y(x,t) = A \log(x+vt)$
 
-## 10. Resonance
+## 10. Rezonans
 
-Determine the frequency of a standing wave with two antinodes on a guitar string, given the wave velocity is 1500 m/s and the string length is 1.0 m.
+Wyznacz częstotliwość fali stojącej z dwiema strzałkami na strunie gitarowej, zakładając, że prędkość fali wynosi 1500 m/s, a długość struny to 1,0 m.
 
+## 11. Animacja: Źródła fal
 
-## 11. Animation: Wave Sources
-
-Write an HTML animation in which it is possible to place dots that will serve as sources of waves described by the equation:
+Napisz animację HTML, w której możliwe jest umieszczanie punktów, które będą służyć jako źródła fal opisanych równaniem:
 
 $$
 u(\vec{r},t) = \frac{A}{|\vec{r}-\vec{r_0}|^\alpha} \sin(k |\vec{r} - \vec{r_0}| - \omega t)
 $$
 
-where $\vec{r_0}$ is the position of the dot, and $\alpha$ is a parameter that can be set within the range $[0, 2]$. The animation should show the superposition of waves from all dots.
+gdzie $\vec{r_0}$ to pozycja punktu, a $\alpha$ to parametr, który można ustawić w zakresie $[0, 2]$. Animacja powinna pokazywać superpozycję fal ze wszystkich punktów.
 
+## 12. Animacja: Interferencja na dwóch szczelinach
 
-## 12. Animation: Two-Slit Interference
-
-Write an HTML animation simulating Young's experiment, in which two slits act as point sources of coherent waves. The displacement of the resultant wave is the sum of partial waves described by the formula:
+Napisz animację HTML symulującą doświadczenie Younga, w którym dwie szczeliny działają jak punktowe źródła fal koherentnych. Przemieszczenie fali wypadkowej jest sumą fal cząstkowych opisanych wzorem:
 
 $$
 u(\vec{r},t) = \frac{A}{|\vec{r}-\vec{r_1}|} \sin(k |\vec{r} - \vec{r_1}| - \omega t) + \frac{A}{|\vec{r}-\vec{r_2}|} \sin(k |\vec{r} - \vec{r_2}| - \omega t)
 $$
 
-where $\vec{r_1}$ and $\vec{r_2}$ are the position vectors of the slits. The user should be able to change the distance between the slits $d = |\vec{r_1} - \vec{r_2}|$ and the wavelength $\lambda$. The animation should visualize the resulting interference pattern in real time.
+gdzie $\vec{r_1}$ i $\vec{r_2}$ to wektory położenia szczelin. Użytkownik powinien mieć możliwość zmiany odległości między szczelinami $d = |\vec{r_1} - \vec{r_2}|$ oraz długości fali $\lambda$. Animacja powinna wizualizować wynikowy obraz interferencyjny w czasie rzeczywistym.
 
-## 13. Animation: Huygens' Principle
+## 13. Animacja: Zasada Huygensa
 
-Create an interactive HTML/JavaScript animation visualizing wave propagation in a discrete medium. The workspace should be filled with a grid of points ("atoms") that can transmit vibrations to their neighbors.
+Stwórz interaktywną animację HTML/JavaScript wizualizującą propagację fali w ośrodku dyskretnym. Obszar roboczy powinien być wypełniony siatką punktów („atomów”), które mogą przekazywać drgania swoim sąsiadom.
 
-Implement a mechanism where each excited point becomes a source of a new elementary (secondary) wave. The goal is to visually demonstrate how the superposition of partial waves forms a macroscopic wave front. The animation should allow for:
+Zaimplementuj mechanizm, w którym każdy wzbudzony punkt staje się źródłem nowej fali elementarnej (wtórnej). Animacja powinna umożliwiać:
 
-* *Point excitation:* clicking on a single atom triggers a propagating spherical wave.
-* *Linear excitation:* simultaneously activating a row of atoms to observe how the summation of many elementary waves creates a plane wave front (envelope).
-* *Grid density regulation:* a slider allowing the user to change the density of atoms to verify how it affects the continuity and quality of the visible wave front.
+* **Wzbudzenie punktowe:** kliknięcie w pojedynczy atom wyzwala rozchodzącą się falę kulistą.
+* **Wzbudzenie liniowe:** jednoczesne aktywowanie rzędu atomów, aby zaobserwować, jak sumowanie wielu fal elementarnych tworzy płaskie czoło fali (obwiednię).
+* **Regulację gęstości siatki:** suwak pozwalający użytkownikowi zmieniać zagęszczenie atomów, aby zweryfikować, jak wpływa to na ciągłość i jakość widocznego czoła fali.
 
+Celem jest wizualne zademonstrowanie, jak superpozycja fal cząstkowych tworzy makroskopowe czoło fali.
