@@ -1,39 +1,38 @@
-# Physics Problem: Rearranging Formulas
+# Section 0: Mathematical Foundations
+## 4. Rearranging Formulas (Formül Düzenleme)
 
-## 1. Key Definitions and Formulas
+**Question (Soru):**
+The formula for the period of a simple pendulum is $T = 2\pi \sqrt{\frac{L}{g}}$. 
+Rearrange the equation to give a formula for $g$ (acceleration due to gravity).
 
-Before solving the problem, it is essential to understand the variables involved in the formula for a simple pendulum:
+---
 
-* **Period ($T$):** The time required for one complete cycle of oscillation (back and forth). It is typically measured in seconds ($s$).
-* **Length ($L$):** The distance from the pivot point to the center of mass of the pendulum bob. It is typically measured in meters ($m$).
-* **Acceleration due to Gravity ($g$):** The constant acceleration exerted by gravity on a free-falling object. On Earth, this is approximately $9.81 \, m/s^2$.
-* **The Pendulum Formula:**
-    $$T = 2\pi \sqrt{\frac{L}{g}}$$
+### Solution (Çözüm)
 
-## 2. Solving the Problem
+**Step 1: Isolate the square root (Karekökü yalnız bırakalım)**
+Divide both sides by $2\pi$:
+$$\frac{T}{2\pi} = \sqrt{\frac{L}{g}}$$
 
-**Task:** Rearrange the equation $T = 2\pi \sqrt{\frac{L}{g}}$ to solve for $g$.
+**Step 2: Remove the square root (Kareköktün kurtulalım)**
+Square both sides of the equation:
+$$\left( \frac{T}{2\pi} \right)^2 = \frac{L}{g}$$
+$$\frac{T^2}{4\pi^2} = \frac{L}{g}$$
 
-### Step-by-Step Derivation:
-
-1.  **Start with the original formula:**
-    $$T = 2\pi \sqrt{\frac{L}{g}}$$
-
-2.  **Divide both sides by $2\pi$ to isolate the square root:**
-    $$\frac{T}{2\pi} = \sqrt{\frac{L}{g}}$$
-
-3.  **Square both sides of the equation to remove the square root:**
-    $$\left(\frac{T}{2\pi}\right)^2 = \frac{L}{g}$$
-
-4.  **Distribute the square to the numerator and denominator:**
-    $$\frac{T^2}{4\pi^2} = \frac{L}{g}$$
-
-5.  **Multiply both sides by $g$ to move it out of the denominator:**
-    $$g \cdot \frac{T^2}{4\pi^2} = L$$
-
-6.  **Multiply both sides by $\frac{4\pi^2}{T^2}$ (or divide by $\frac{T^2}{4\pi^2}$) to isolate $g$:**
-    $$g = \frac{4\pi^2 L}{T^2}$$
-
-### Final Answer:
-The rearranged formula for the acceleration due to gravity is:
+**Step 3: Solve for $g$ ($g$ değerini yalnız bırakalım)**
+Multiply both sides by $g$ and then rearrange:
+$$g \cdot \frac{T^2}{4\pi^2} = L$$
 $$g = \frac{4\pi^2 L}{T^2}$$
+
+---
+
+### Final Answer (Sonuç)
+**English:** The formula for $g$ is $g = \frac{4\pi^2 L}{T^2}$.
+**Türkçe:** $g$ (yerçekimi ivmesi) için düzenlenen formül: $g = \frac{4\pi^2 L}{T^2}$.
+
+
+
+---
+
+### 📌 Note (Not)
+**English:** This formula is used in physics experiments to determine the local acceleration due to gravity by measuring the length and the period of a pendulum.
+**Türkçe:** Bu formül, fizik deneylerinde bir sarkacın boyunu ve periyodunu ölçerek yerel yerçekimi ivmesini hesaplamak için kullanılır.
