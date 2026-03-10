@@ -3,42 +3,37 @@
 
 **Question (Soru):**
 Calculate the area under the curve of the function $f(x) = \sin(x)$ from $x=0$ to $x=\pi$.
-($f(x) = \sin(x)$ fonksiyonunun $x=0$ ile $x=\pi$ aralığında altında kalan alanı hesaplayın.)
 
 ---
 
 ### Solution (Çözüm)
 
-**Step 1: Set up the integral (İntegrali kuralım)**
-**English:** The area under a curve is found by taking the definite integral of the function over the given interval.
-**Türkçe:** Bir eğrinin altındaki alan, fonksiyonun verilen aralıktaki belirli integrali alınarak bulunur.
+**Step 1: Set up the Integral (İntegrali Kuralım)**
+The area under a curve is defined by the definite integral over the interval $[0, \pi]$.
+(Eğri altındaki alan, $[0, \pi]$ aralığındaki belirli integral ile tanımlanır.)
 
 $$\text{Area} = \int_{0}^{\pi} \sin(x) \, dx$$
 
-**Step 2: Find the antiderivative (İntegrali alalım)**
-**English:** The integral of $\sin(x)$ is $-\cos(x)$.
-**Türkçe:** $\sin(x)$ fonksiyonunun integrali $-\cos(x)$'tir.
+**Step 2: Integration (İntegral Hesabı)**
+The antiderivative of $\sin(x)$ is $-\cos(x)$.
+($\sin(x)$ fonksiyonunun integrali $-\cos(x)$'tir.)
 
 $$\text{Area} = \left[ -\cos(x) \right]_{0}^{\pi}$$
 
-**Step 3: Evaluate at the boundaries (Sınır değerleri yerine koyalım)**
+**Step 3: Evaluation (Sınır Değerleri Uygulama)**
 $$\text{Area} = (-\cos(\pi)) - (-\cos(0))$$
 Since $\cos(\pi) = -1$ and $\cos(0) = 1$:
-$$\text{Area} = (-(-1)) - (-1)$$
-$$\text{Area} = 1 + 1 = 2$$
+$$\text{Area} = (-(-1)) - (-1) = 1 + 1 = 2$$
 
 ---
 
 ### Final Answer (Sonuç)
-**English:** The total area is **2**.
-**Türkçe:** Toplam alan **2** birimkaredir.
-
-
+The total area is **2**.
+(Toplam alan **2** birimkaredir.)
 
 ---
 
-### 🎓 Academic Notes (Hoca İçin Notlar)
-
-* **Physical Significance (Fiziksel Önem):** In physics, the area under a curve often represents a physical quantity. For example, the area under a **Velocity-Time** graph gives the **Displacement**, or the area under a **Force-Distance** graph gives the **Work done**.
-* **Symmetry (Simetri):** Note that $\sin(x)$ is symmetric around $\pi/2$. The area from $0$ to $\pi/2$ is exactly $1$, so for the full arch ($0$ to $\pi$), it is naturally $1 + 1 = 2$.
-* **Periodic Functions:** This calculation is fundamental in AC (Alternating Current) circuits when calculating average or RMS values of sinusoidal voltages.
+### 🎓 Physical Insight (Fiziksel Bakış)
+* **Graphical Significance:** In physics, the area under a curve represents a physical quantity. For example, the area under a **Velocity-Time** graph gives the **Displacement**, or the area under a **Force-Distance** graph gives the **Work**.
+* **Symmetry:** The function $\sin(x)$ is perfectly symmetric around $\pi/2$. This integral confirms that each "half-arch" of the sine wave contains exactly 1 unit of area.
+* **Applications:** This calculation is a precursor to finding Average and RMS (Root Mean Square) values in wave mechanics and electrical engineering (AC circuits).
