@@ -1,34 +1,17 @@
 # Section 0: Mathematical Foundations
-## 8. Definite Integrals (Belirli İntegral - Alan Hesabı)
+## 7. Logic & Series (Mantık ve Fiziksel Sezgi - Sinek Problemi)
 
 **Question (Soru):**
-Calculate the area under the curve of the function $f(x) = \sin(x)$ from $x=0$ to $x=\pi$.
-($f(x) = \sin(x)$ fonksiyonunun $x=0$ ile $x=\pi$ aralığında altında kalan alanı hesaplayın.)
+A bicycle is 10 meters from a wall and moves towards it at a constant speed of $1\text{ m/s}$. A fly starts from the bicycle's front wheel and flies towards the wall at $2\text{ m/s}$. When it hits the wall, it instantly turns back and flies to the bicycle, and so on. What is the total distance the fly travels before being crushed?
+
+(Bir bisiklet duvardan 10 m uzaktadır ve duvara 1 m/s hızla gitmektedir. Bir sinek bisikletten duvara 2 m/s hızla uçar, duvara çarpınca geri döner. Bisiklet duvara çarpana kadar sineğin kat ettiği toplam mesafe nedir?)
 
 ---
 
 ### Solution (Çözüm)
 
-**Step 1: Set up the integral (İntegrali kuralım)**
-**English:** The area under a curve is found by taking the definite integral of the function over the given interval.
-**Türkçe:** Bir eğrinin altındaki alan, fonksiyonun verilen aralıktaki belirli integrali alınarak bulunur.
+**Step 1: Focus on the "Invariant" (Zaman Değişmezine Odaklanalım)**
+**English:** Instead of summing the infinite individual trips of the fly, we simply find the total time the fly is in the air. This time is determined by when the bicycle hits the wall.
+**Türkçe:** Sineğin her bir gidiş-dönüş mesafesini ayrı ayrı toplamak yerine (ki bu sonsuz bir seridir), sineğin ne kadar süre havada kaldığını bulalım. Bu süre, bisikletin duvara çarpma süresine eşittir.
 
-$$\text{Area} = \int_{0}^{\pi} \sin(x) \, dx$$
-
-**Step 2: Find the antiderivative (İntegrali alalım)**
-**English:** The integral of $\sin(x)$ is $-\cos(x)$.
-**Türkçe:** $\sin(x)$ fonksiyonunun integrali $-\cos(x)$'tir.
-
-$$\text{Area} = \left[ -\cos(x) \right]_{0}^{\pi}$$
-
-**Step 3: Evaluate at the boundaries (Sınır değerleri yerine koyalım)**
-$$\text{Area} = (-\cos(\pi)) - (-\cos(0))$$
-Since $\cos(\pi) = -1$ and $\cos(0) = 1$:
-$$\text{Area} = (-(-1)) - (-1)$$
-$$\text{Area} = 1 + 1 = 2$$
-
----
-
-### Final Answer (Sonuç)
-**English:** The total area is **2**.
-**Türkçe:** Toplam alan **2** birimkaredir.
+$$t = \frac{\text{Distance}}{\text{Speed}_{bicycle}} = \frac{10\text{ m}}{1\text
