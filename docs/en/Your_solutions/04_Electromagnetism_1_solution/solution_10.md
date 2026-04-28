@@ -7,6 +7,7 @@ The magnetic force acting on a straight, current-carrying wire in a uniform magn
 
 ### Mathematical Derivation
 The general formula for the magnitude of the magnetic force is:
+
 $$F_B = I \cdot L \cdot B \cdot \sin(\theta)$$
 
 Where the given values are:
@@ -16,18 +17,23 @@ Where the given values are:
 * $\theta$ is the angle between the direction of the current and the magnetic field.
 
 First, let's calculate the maximum possible force, which occurs when the wire is perfectly perpendicular ($\theta = 90^\circ$) to the magnetic field:
+
 $$F_{max} = 10 \cdot 2.0 \cdot 0.5 = 10\text{ N}$$
 
 ### Calculations for Each Case
 
 **a) Angle $\theta = 90^\circ$ (Perpendicular)**
 When the wire is perpendicular to the magnetic field:
+
 $$F_a = F_{max} \cdot \sin(90^\circ)$$
+
 $$F_a = 10 \cdot 1 = 10\text{ N}$$
 
 **b) Angle $\theta = 45^\circ$**
 When the wire is at a 45-degree angle to the magnetic field:
+
 $$F_b = F_{max} \cdot \sin(45^\circ)$$
+
 $$F_b = 10 \cdot \frac{\sqrt{2}}{2} = 5\sqrt{2} \approx 7.07\text{ N}$$
 
 **c) Angle $\theta = 0^\circ$ (Parallel)**
