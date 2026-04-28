@@ -1,38 +1,55 @@
-## 8. Lorentz Force
+### Given Values (Constants and Parameters)
 
-**Problem:** A charged particle with charge $q = 2 \times 10^{-19}\text{ C}$ and mass $m = 4 \times 10^{-27}\text{ kg}$ enters a magnetic field of $B = 0.5\text{ T}$ at a speed of $v = 10^6\text{ m/s}$ perpendicular to the field. What is the magnitude of the Lorentz force acting on the particle?
+Before starting the calculation, let's list the parameters provided:
 
-### Constants and Given Values
-Before calculating, let's list the given parameters:
-* Charge: $q = 2 \times 10^{-19}\text{ C}$
-* Velocity: $v = 10^6\text{ m/s}$
-* Magnetic field: $B = 0.5\text{ T}$
-* Angle: $\theta = 90^\circ$ (perpendicular to the field)
-* Mass: $m = 4 \times 10^{-27}\text{ kg}$ *(Note: This is extraneous information provided in the question. Mass is not required to calculate the magnitude of the magnetic force, though it would be needed if we were asked to find the particle's acceleration).*
+*   **Charge ($q$):** $2 \times 10^{-19}$ C
+*   **Velocity ($v$):** $10^6$ m/s
+*   **Magnetic Field ($B$):** $0.5$ T
+*   **Angle ($\theta$):** $90^\circ$ (Particle enters perpendicular to the field)
+*   **Mass ($m$):** $4 \times 10^{-27}$ kg *(Note: This is extraneous information and is not needed to find the magnitude of the magnetic force.)*
 
-### Step 1: State the Lorentz Force Formula
-The magnitude of the magnetic force (Lorentz force) exerted on a moving point charge is given by the equation:
-$$F_B = |q| v B \sin(\theta)$$
+---
 
-### Step 2: Apply the Perpendicular Condition
-Since the problem states that the particle enters the field perpendicularly, the angle $\theta$ between the velocity vector and the magnetic field vector is exactly $90^\circ$.
+### The Formula
+
+The magnitude of the Lorentz (magnetic) force acting on a moving point charge is given by the formula:
+
+$$F_B = |q| \cdot v \cdot B \cdot \sin(\theta)$$
+
+---
+
+### Step-by-Step Solution
+
+**1. Apply the Perpendicular Condition**
+Since the particle enters the magnetic field perpendicularly, the angle between the velocity and the magnetic field vectors is $90^\circ$.
+
 $$\sin(90^\circ) = 1$$
 
 Therefore, our formula simplifies to:
-$$F_B = |q| v B$$
 
-### Step 3: Calculation
-Now, substitute the given values into the simplified equation:
+$$F_B = |q| \cdot v \cdot B$$
+
+**2. Substitute the Values**
+Now, plug the given values for charge, velocity, and magnetic field into the simplified equation:
+
 $$F_B = (2 \times 10^{-19}) \cdot (10^6) \cdot (0.5)$$
 
+**3. Perform the Calculation**
 First, multiply the coefficients:
+
 $$2 \cdot 0.5 = 1$$
 
-Then, multiply the powers of 10:
-$$10^{-19} \cdot 10^6 = 10^{-13}$$
+Next, multiply the powers of 10 (since the bases are the same, add the exponents):
 
-Combining them gives the final force:
-$$F_B = 1 \times 10^{-13}\text{ N}$$
+$$10^{-19} \cdot 10^6 = 10^{-19 + 6} = 10^{-13}$$
 
-**Conclusion:** 
-The magnitude of the Lorentz force acting on the particle is **$1 \times 10^{-13}\text{ N}$**.
+Combine them to get the final force:
+
+$$F_B = 1 \cdot 10^{-13} \text{ N}$$
+
+---
+
+### Final Answer
+
+The magnitude of the Lorentz force acting on the particle is:
+**$1 \times 10^{-13} \text{ N}$**
