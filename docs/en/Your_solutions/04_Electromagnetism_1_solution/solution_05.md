@@ -1,51 +1,40 @@
-## 5. Continuous Charge Distribution
+## 5. Field Levitation
 
-**Problem:** A rod of length $L$ has a uniform linear charge density $\lambda$. Find the electric field at a point $P$ a distance $d$ from one end of the rod, along the axis of the rod.
+**Problem:** What electric field strength is required to make a proton levitate against Earth's gravity at the level of the Earth's surface? (Mass of proton $m_p \approx 1.67 \times 10^{-27}\text{ kg}$, charge of proton $e \approx 1.6 \times 10^{-19}\text{ C}$, gravitational acceleration $g \approx 9.8\text{ m/s}^2$).
 
-### Setting Up the Coordinate System
-Let's align the rod along the $x$-axis. 
-* We place the left end of the rod at the origin ($x = 0$).
-* The right end of the rod is at $x = L$.
-* The point $P$ is on the $x$-axis, a distance $d$ away from the right end. Therefore, the coordinate of point $P$ is $x_p = L + d$.
+### Physical Concept
+For a proton to levitate, it must be in a state of mechanical equilibrium. This means the net force acting on it must be exactly zero. 
 
-### Defining the Charge Element
-Since the charge is continuously distributed, we must break the rod into infinitesimally small segments of length $dx$. 
-The charge $dq$ contained in a segment $dx$ is related to the linear charge density $\lambda$:
-$$dq = \lambda dx$$
+There are two main forces acting on the proton in this scenario:
+1.  **Gravitational Force ($F_g$):** Pulling the proton downward toward the Earth.
+2.  **Electric Force ($F_e$):** Must pull the proton upward to counteract gravity.
 
-The distance from this infinitesimal charge element (located at some point $x$ on the rod) to point $P$ (located at $L + d$) is:
-$$r = (L + d) - x$$
+### Step 1: Define the Forces
+The downward gravitational force is calculated using Newton's second law:
+$$F_g = m_p g$$
 
-### Setting up the Integral
-The infinitesimal electric field $dE$ produced by the charge element $dq$ at point $P$ is pointing to the right (assuming $\lambda$ is positive) and its magnitude is:
-$$dE = k_e \frac{dq}{r^2} = k_e \frac{\lambda dx}{((L + d) - x)^2}$$
+The upward electric force exerted by an electric field $E$ on a charge $q$ is:
+$$F_e = q E$$
+*(Since it is a proton, the charge $q$ is the elementary charge $e$).*
 
-To find the total electric field $E$, we must integrate this expression over the entire length of the rod, which means integrating from $x = 0$ to $x = L$:
-$$E = \int_{0}^{L} k_e \frac{\lambda}{((L + d) - x)^2} dx$$
+### Step 2: Set up the Equilibrium Equation
+For the proton to levitate, the magnitude of the upward electric force must equal the magnitude of the downward gravitational force:
+$$F_e = F_g$$
+$$e E = m_p g$$
 
-### Evaluating the Integral
-Since $k_e$ and $\lambda$ are constants, we can pull them out of the integral:
-$$E = k_e \lambda \int_{0}^{L} ((L + d) - x)^{-2} dx$$
+Now, we isolate the electric field strength ($E$):
+$$E = \frac{m_p g}{e}$$
 
-Let's use u-substitution. Let $u = (L + d) - x$, which means $du = -dx$, or $dx = -du$.
-Changing the limits of integration:
-* When $x = 0$, $u = L + d$
-* When $x = L$, $u = d$
+### Step 3: Calculation
+Substitute the given constant values into our derived equation:
+* Mass of proton ($m_p$): $1.67 \times 10^{-27}\text{ kg}$
+* Gravitational acceleration ($g$): $9.8\text{ m/s}^2$
+* Charge of proton ($e$): $1.6 \times 10^{-19}\text{ C}$
 
-The integral becomes:
-$$E = k_e \lambda \int_{L+d}^{d} u^{-2} (-du)$$
-$$E = -k_e \lambda \int_{L+d}^{d} u^{-2} du = k_e \lambda \int_{d}^{L+d} u^{-2} du$$
+$$E = \frac{(1.67 \times 10^{-27}) \cdot (9.8)}{1.6 \times 10^{-19}}$$
+$$E = \frac{16.366 \times 10^{-27}}{1.6 \times 10^{-19}}$$
+$$E \approx 10.23 \times 10^{-8}\text{ N/C}$$
+$$E \approx 1.02 \times 10^{-7}\text{ N/C}$$
 
-Now, integrate $u^{-2}$:
-$$E = k_e \lambda \left[ -\frac{1}{u} \right]_{d}^{L+d}$$
-$$E = -k_e \lambda \left( \frac{1}{L + d} - \frac{1}{d} \right)$$
-$$E = k_e \lambda \left( \frac{1}{d} - \frac{1}{L + d} \right)$$
-
-### Final Result
-Finding a common denominator:
-$$E = k_e \lambda \left( \frac{(L + d) - d}{d(L + d)} \right)$$
-$$E = \frac{k_e \lambda L}{d(L + d)}$$
-
-*(Optional Note: Since total charge $Q = \lambda L$, the equation can also be written as $E = \frac{k_e Q}{d(L + d)}$).*
-
----
+**Conclusion:** 
+An electric field strength of approximately **$1.02 \times 10^{-7}\text{ N/C}$** is required to levitate the proton. Since the proton is positively charged, the electric field must point **upward** to generate an upward electric force.
