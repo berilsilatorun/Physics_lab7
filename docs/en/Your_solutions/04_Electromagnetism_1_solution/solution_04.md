@@ -1,36 +1,38 @@
-## 4. Electric Field
+## 4. Force Comparison
 
-**Problem:** Find the electric field at the center of the square in the first problem. (Recall Problem 1: Four identical point charges of $Q = +1.0\text{ C}$ are placed at the corners of a square with sides $a = 1.0\text{ m}$).
+**Problem:** Calculate the magnitude of the electric force and the gravitational force between an electron and a proton in a hydrogen atom (average distance $r \approx 5.3 \times 10^{-11}\text{ m}$). What is the ratio $F_e/F_g$?
 
-### Physical Concept and Symmetry
-The electric field $\vec{E}$ created by a point charge is a vector quantity. The net electric field at the center is the vector sum of the electric fields produced by each of the four charges:
-$$\vec{E}_{net} = \vec{E}_1 + \vec{E}_2 + \vec{E}_3 + \vec{E}_4$$
+### Constants
+Before starting the calculations, let's list the fundamental constants we need:
+* Elementary charge: $e \approx 1.60 \times 10^{-19}\text{ C}$
+* Mass of electron: $m_e \approx 9.11 \times 10^{-31}\text{ kg}$
+* Mass of proton: $m_p \approx 1.67 \times 10^{-27}\text{ kg}$
+* Coulomb constant: $k_e \approx 8.99 \times 10^9\text{ N}\cdot\text{m}^2/\text{C}^2$
+* Gravitational constant: $G \approx 6.67 \times 10^{-11}\text{ N}\cdot\text{m}^2/\text{kg}^2$
 
-Let's analyze the setup:
-1. All four charges are identical ($+1.0\text{ C}$).
-2. The distance $r$ from each corner to the center is the same for all charges:
-$$r = \frac{a\sqrt{2}}{2} = \frac{\sqrt{2}}{2}\text{ m}$$
+### Step 1: Calculate the Electric Force ($F_e$)
+The electric force between the electron and the proton is attractive and is given by Coulomb's Law:
+$$F_e = k_e \frac{|q_1 q_2|}{r^2} = k_e \frac{e^2}{r^2}$$
 
-### Mathematical Derivation
-The magnitude of the electric field produced by each individual charge at the center is given by:
-$$E = k_e \frac{|Q|}{r^2}$$
+Substituting the known values:
+$$F_e = (8.99 \times 10^9) \frac{(1.60 \times 10^{-19})^2}{(5.3 \times 10^{-11})^2}$$
+$$F_e = (8.99 \times 10^9) \frac{2.56 \times 10^{-38}}{2.809 \times 10^{-21}}$$
+$$F_e \approx 8.2 \times 10^{-8}\text{ N}$$
 
-Since both $Q$ and $r$ are identical for all four charges, the magnitudes of their electric fields are strictly equal:
-$$|\vec{E}_1| = |\vec{E}_2| = |\vec{E}_3| = |\vec{E}_4|$$
+### Step 2: Calculate the Gravitational Force ($F_g$)
+The gravitational force between the two particles is also attractive and is given by Newton's Law of Universal Gravitation:
+$$F_g = G \frac{m_e m_p}{r^2}$$
 
-Now, let's consider the directions (since electric field lines point away from positive charges):
-* The field from the **top-left** charge points towards the **bottom-right**.
-* The field from the **bottom-right** charge points towards the **top-left**.
-These two vectors are equal in magnitude but perfectly opposite in direction, meaning they completely cancel each other out.
+Substituting the known masses and distance:
+$$F_g = (6.67 \times 10^{-11}) \frac{(9.11 \times 10^{-31})(1.67 \times 10^{-27})}{(5.3 \times 10^{-11})^2}$$
+$$F_g = (6.67 \times 10^{-11}) \frac{1.52 \times 10^{-57}}{2.809 \times 10^{-21}}$$
+$$F_g \approx 3.6 \times 10^{-47}\text{ N}$$
 
-* Similarly, the field from the **top-right** charge points towards the **bottom-left**.
-* The field from the **bottom-left** charge points towards the **top-right**.
-These two vectors also cancel each other out.
+### Step 3: Find the Ratio ($F_e / F_g$)
+To understand how much stronger the electric force is compared to gravity at the atomic scale, we calculate their ratio:
+$$\text{Ratio} = \frac{F_e}{F_g}$$
+$$\text{Ratio} = \frac{8.2 \times 10^{-8}}{3.6 \times 10^{-47}}$$
+$$\text{Ratio} \approx 2.3 \times 10^{39}$$
 
-
-
-### Final Result
-Because of the perfect symmetry of the identical charges in a square configuration, the vector sum is zero:
-$$\vec{E}_{net} = 0\text{ N/C}$$
-
----
+**Conclusion:** 
+The calculation shows that the electric force is approximately **$2.3 \times 10^{39}$ times stronger** than the gravitational force in a hydrogen atom. Because this ratio is so massive, gravity is completely negligible in atomic physics.
