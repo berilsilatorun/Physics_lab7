@@ -1,4 +1,4 @@
-## 8. Lorentz Force on a Charged Particle
+# 8. Lorentz Force on a Charged Particle
 
 **Problem:** A charged particle with charge $q = 2 \times 10^{-19}\text{ C}$ and mass $m = 4 \times 10^{-27}\text{ kg}$ enters a magnetic field of $B = 0.5\text{ T}$ at a speed of $v = 10^6\text{ m/s}$ perpendicular to the field. What is the magnitude of the Lorentz force acting on the particle?
 
