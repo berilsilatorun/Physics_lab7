@@ -18,15 +18,15 @@ First, we square the radius in the denominator:
 $$g_{Sun} = \frac{13.348 \times 10^{19}}{4.844 \times 10^{17}}$$
 
 Dividing the numbers gives the gravitational acceleration on the Sun's surface:
-$$g_{Sun} \approx 274\text{ m/s}^2$$
+$$g_{Sun} \approx 275.5\text{ m/s}^2$$
 
 ### Step 2: Calculate the Weight Factor
 To find out how much heavier an object would be on the Sun compared to Earth, we divide the Sun's gravity by Earth's standard surface gravity ($g_{Earth} = 9.81\text{ m/s}^2$):
 $$\text{Factor} = \frac{g_{Sun}}{g_{Earth}}$$
-$$\text{Factor} = \frac{274}{9.81} \approx 28$$
+$$\text{Factor} = \frac{275.5}{9.81} \approx 28$$
 
 ---
 
 ### Final Conclusion
-* **Solar Gravity:** $274\text{ m/s}^2$
+* **Solar Gravity:** $275.5\text{ m/s}^2$
 * **Weight Increase:** If you could stand on the Sun, your weight would increase by a factor of **28**.
